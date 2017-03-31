@@ -1,0 +1,126 @@
+#team{
+  text-align: left;
+  background-color: #1f1f1f;
+  background-image: url('../../images/shape_back.png');
+  background-repeat: repeat;
+  .team-container{
+    padding: 5% 5%;
+  }
+  h2{
+    font-weight: 500;
+    font-size: 60px;
+    letter-spacing:4px;
+    color: white;
+    text-transform: uppercase;
+  }
+  h3{
+    font-weight: 300;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
+    color: white;
+    text-align: justify;
+  }
+  hr{
+    border: none;
+    height: 2px;
+    background-color: white;
+    margin: 15px 0px 25px 0px;
+
+  }
+  .team-grid-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .team-grid{
+      width: 27%;
+      text-align: center;
+      background-color: white;
+      margin: 20px;
+      max-height: 381px;
+      height: 381px;
+      h3{
+        padding: 20px 0px;
+        color: black;
+        text-align: center;
+        font-weight: 500;
+      }
+      h5{
+        margin: 0px;
+        padding: 0px 0px 30px 0px;
+        font-weight: 300;
+        font-size: 18px;
+        width: 90%;
+        margin: auto;
+      }
+      .team-member-picture{
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        height: 250px;
+      }
+    }
+  }
+  #team-slit-bottom{
+    width: 100%;
+    height: 103px;
+    background-color: #1f1f1f;
+    -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 66%);
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 66%);
+  }
+}
+
+/*Team Images*/
+#t1{
+  background-image: url("../../images/team/oliver.jpg");
+}
+#t2{
+  background-image: url("../../images/team/tom.jpg");
+}
+#t3{
+  background-image: url("../../images/team/adam.jpg");
+}
+#t4{
+  background-image: url("../../images/team/pandelis.jpg");
+}
+#t5{
+  background-image: url("../../images/team/alex.jpg");
+}
+#t6{
+  background-image: url("../../images/team/tomcamb.jpg");
+}
+#t7{
+  background-image: url("../../images/team/liam.jpg");
+}
+#t8{
+  background-image: url("../../images/team/cat.jpg");
+}
+#t9{
+  background-image: url("../../images/team/matt.jpg");
+}
+#t10{
+  background-image: url("../../images/team/jack.jpg");
+}
+#t11{
+  background-image: url("../../images/team/andrew.jpg");
+}
+#t12{
+  background-image: url("../../images/team/emma.jpg");
+}
+
+@media screen and (max-width: 980px){
+  .team-grid{
+    width: 43% !important;
+  }
+}
+
+@media screen and (max-width: 715px){
+  .team-grid{
+    width: 70% !important;
+    max-height: 450px !important;
+    height: 450px !important;
+  }
+  .team-member-picture{
+    height: 330px !important;
+  }
+}
+

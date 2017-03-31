@@ -1,0 +1,277 @@
+<html>
+<head>
+    <!--Stylesheets-->
+
+    <title>HTM | Event Info</title>
+    <link type="text/css" rel="stylesheet" href="./style/css/event-info-main.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:image" content="http://hackthemidlands.com/images/hackthemidlands-facebook.jpg" />
+    <meta property="og:url" content="http://www.hackthemidlands.com" />
+    <script src="https://use.typekit.net/dme1ptj.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="./style/js/featherlight.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/featherlight/1.5.0/featherlight.min.css" type="text/css" rel="stylesheet"/>
+
+    <!--Timetable-->
+    <link rel="stylesheet" href="./style/css/timetablejs.css">
+
+    <script src="./style/js/timetable.min.js"></script>
+</head>
+
+<body>
+    <div class="nav-mobile-content-container">
+        <div id="mobile-close">
+            <h1 id="mobile-close">X</h1>
+        </div>
+        <div class="nav-mobile-content">
+            <a href="index.html#event-info">About Us</a>
+            <a href="index.html#sponsors">Sponsors</a>
+            <a href="index.html#team">Team</a>
+            <a href="https://www.eventbrite.co.uk/e/hackthemidlands-tickets-27322918585">Tickets</a>
+            <a href="event-info.html">Event Information</a>
+        </div>
+    </div>
+
+    <section id="header">
+        <div class="overlay"></div>
+        <div class="navigation">
+            <div class="nav-left">
+                <img src="./images/htmlogo.png"/>
+                <!-- <h1>HTM</h1> -->
+            </div>
+            <div class="nav-right">
+                <div class="nav-right-content">
+                    <a href="index.html#event-info">About Us</a>
+                    <a href="index.html#sponsors">Sponsors</a>
+                    <a href="index.html#team">Team</a>
+                    <a href="https://www.eventbrite.co.uk/e/hackthemidlands-tickets-27322918585">Tickets</a>
+                    <a href="event-info.html">Event Information</a>
+                    <div class="nav-mobile"></div>
+                </div>
+            </div>
+        </div>
+        <div class="header-title">
+            <h1>Event information</h1>
+            <h4>Hackthemidlands</h4>
+            <a href="#navigation"><button class="button-white">Browse</button></a>
+            <a href="#spotify" data-featherlight="#spotify"><button class="button-white">Spotify URI</button></a>
+        </div>
+    </section>
+
+    <section id="navigation">
+        <div class="container">
+            <div class="nav-text">
+                <h1>You have:</h1>
+                <div id="countdown"></div>
+                <h1>left</h1>
+            </div>
+            <ul>
+               <a href="#sponsor-challenges"><li>
+                   <div class="nav-icon"><img src="images/icons/sponsors.svg"/></div>
+                   <h4>Sponsors</h4>
+               </li></a>
+                <a href="#schedule"><li>
+                    <div class="nav-icon"><img src="images/icons/calendar.svg"/></div>
+                    <h4>Schedule</h4>
+                </li></a>
+                <a href="#submission"><li>
+                    <div class="nav-icon"><img src="images/icons/upload.svg"/></div>
+                    <h4>Submissions</h4>
+                </li></a>
+            </ul>
+        </div>
+    </section>
+
+    <!--Sponsor Challenges-->
+
+    <section id="sponsor-challenges">
+        <div class="container">
+            <h2>Sponsor Challenges</h2>
+            <hr/>
+            <div class="sponsors-challenges">
+                <div class="sponsor-item" id="majestic">
+                    <div class="sponsor-item-left">
+                        <img src="images/sponsors/majestic.png" alt="Majestic"/>
+                    </div>
+                    <div class="sponsor-item-right">
+                        <div class="sponsor-item-right-content">
+                            <h3>Majestic Challenge</h3>
+                            <p>Most creative use of - Mash it up, Visualise it, Have fun with it!</p>
+                            <!--<a href=""><button class="button-black">Get API key</button></a>-->
+                            <br>
+                            <p>Get the API key from our desk!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sponsor-item" id="majestic">
+                <div class="sponsor-item-left">
+                    <img src="images/sponsors/millenium-point.svg" alt="Millenium Point"/>
+                </div>
+                <div class="sponsor-item-right">
+                    <div class="sponsor-item-right-content">
+                        <h3>Millenium Point Data Challenge</h3>
+                        <p>Use data showing the number of people passing through our building and display and provide insightful information!</p>
+                        <a href="#" id="mp-lightbox" data-featherlight="#mp-challenge">View Specific Challenge Breif</a>
+                        <br>
+                        <a href="MPdata.xlsx"><button class="button-black">Download </button></a>
+                    </div>
+                </div>
+            </div>
+            <!--<div class="sponsor-item" id="majestic">-->
+                <!--<div class="sponsor-item-left">-->
+                    <!--<img src="images/sponsors/majestic.png" alt="Majestic"/>-->
+                <!--</div>-->
+                <!--<div class="sponsor-item-right">-->
+                    <!--<div class="sponsor-item-right-content">-->
+                        <!--<h3>Challenge Title</h3>-->
+                        <!--<p>We challenge you to use the most creative use of our API to extract some sick data from the web!</p>-->
+                        <!--<a href=""><button class="button-black">Get API key</button></a>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        </div>
+    </section>
+
+    <section id="schedule">
+        <div class="container">
+            <h2>Schedule</h2>
+            <hr/>
+            <h3>Saturday</h3>
+            <div class="timetable"></div>
+            <h3>Sunday</h3>
+            <div class="timetable2"></div>
+            <h4>Coming Soon...!</h4>
+        </div>
+    </section>
+
+    <section id="submission">
+        <div class="container">
+            <h2>Submissions</h2>
+            <hr/>
+            <a href="http://hackthemidlands.devpost.com/"><img src="http://devpost2.assetspost.com/assets/reimagine2/devpost-logo-646bdf6ac6663230947a952f8d354cad.svg" alt="devpost"/></a>
+            <h3>All submissions can be uploaded to <a href="http://hackthemidlands.devpost.com/">Devpost</a> where we
+                shall judge them and award winnders. If you have not already signed up to <strong>Devpost</strong> then
+                make sure you do it <strong>NOW!</strong></h3>
+            <h1>NOW GO HACK AND HAVE FUN!</h1>
+        </div>
+    </section>
+
+    <section id="lightboxes">
+        <div class="lightbox" id="mp-challenge">
+            <h2>Millenium Point Challenge</h2>
+            <p>Millennium Point have been using counters to track visitor numbers since Feb 2015 and now that comparative data is available, are looking for interesting ways to convey the flow of visitors to the building at different stages of the year.
+                <br>They are particularly interested in the following:</p>
+
+            <ul>
+                <li>Identifying and displaying peak periods of visitor activity across the calendar and across the financial year</li>
+                <li>Visualisations of visitor data, by place of entrance, during Birmingham school holidays</li>
+                <li>Visualisations of visitor data, by place of entrance, for weekends versus week days across the year</li>
+                <li>Visualisations of visitor data, by place of entrance, with BCU term time versus outside of term</li>
+                <li>Looking at the entrances used during events with large attendee numbers versus day to day business</li>
+            </ul>
+            <p>The data should ideally presented consistently with Millennium Point's branding including colour scheme and font.<br>
+                The data could be used to help us to inform everything from rate card value of the space for hire, the staffing levels
+                required across the building at different points of the year, or the rate card value of any advertising space offered within
+                the building.<br>The data could be presented to a wide range of audiences; either online, on displays (16:9) within the building,
+                to our tenants, but also to board members.</p>
+            <a href="MPdata.xlsx"><button style="margin: 20px 0px" class="button-black">Download Excel file</button></a>
+        </div>
+
+        <div class="lightbox" id="spotify"><h1>Add to our Spotify playlist!</h1><h4>spotify:user:speedatw:playlist:34soYcGAkLYB2eD2YGSU9W</h4><p>Paste the above text into your search bar in the Spotify Desktop client.</p></div>
+    </section>
+
+    <script>
+        $(function() {
+            $('a[href*="#"]:not([href="#"])').click(function() {
+                if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                    if (target.length) {
+                        $('html, body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000);
+                        return false;
+                    }
+                }
+            });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function(){
+            var timetable = new Timetable();
+            timetable.setScope(9, 23);
+            timetable.addLocations(['Main Hall', 'Food Table', 'Entertainment']);
+            //Main Hall
+            timetable.addEvent('Doors Open', 'Main Hall', new Date(2016,10,1,9,30), new Date(2016,10,1,10,00));
+            timetable.addEvent('Welcome Presentation', 'Main Hall', new Date(2016,10,1,11,00), new Date(2016,10,1,12,00));
+            timetable.addEvent('Hacking!', 'Main Hall', new Date(2016,10,1,12,00), new Date(2016,10,1,23,00));
+            //Food Table
+            timetable.addEvent('Lunch', 'Food Table', new Date(2016,10,1,13,00), new Date(2016,10,1,14,00));
+            timetable.addEvent('Dinner', 'Food Table', new Date(2016,10,1,19,00), new Date(2016,10,1,20,00));
+            //Entertainment
+            timetable.addEvent('Meet & Greet + Idea Creation', 'Entertainment', new Date(2016,10,1,12,00), new Date(2016,10,1,14,00));
+            timetable.addEvent('Code In The Dark', 'Entertainment', new Date(2016,10,1,20,30), new Date(2016,10,1,22,00));
+            timetable.addEvent('Werewolf', 'Entertainment', new Date(2016,10,1,22,00), new Date(2016,10,1,23,00));
+
+
+            //Render Timetable
+            var renderer = new Timetable.Renderer(timetable);
+            renderer.draw('.timetable'); // any css selector
+        });
+    </script>
+
+    <script>
+        $('.nav-mobile').on('click', function(){
+            $('.nav-mobile-content-container').css({
+                maxHeight: '100%',
+                height: '100%',
+                opacity: 1
+            })
+        });
+        $('#mobile-close').on('click', function(){
+            $('.nav-mobile-content-container').css({
+                opacity: 0,
+                maxHeight: '0px'
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        function getTimeRemaining(endtime){
+            var t = Date.parse(endtime) - Date.parse(new Date());
+            var seconds = Math.floor( (t/1000) % 60 );
+            var minutes = Math.floor( (t/1000/60) % 60 );
+            var hours = Math.floor( (t/(1000*60*60)) % 24 );
+            var days = Math.floor( t/(1000*60*60*24) );
+            return {
+                'total': t,
+                'days': days,
+                'hours': hours,
+                'minutes': minutes,
+                'seconds': seconds
+            };
+        }
+
+        function initializeClock(id, endtime){
+            var clock = document.getElementById(id);
+            var timeinterval = setInterval(function(){
+                var t = getTimeRemaining(endtime);
+                clock.innerHTML = '<div id="days">' + t.days + '<h3>Days</h3></div>' + '<div id="hours">' + t.hours + '<h3>Hours</h3></div>' + '<div id="minutes">' + t.minutes + '<h3>Minutes</h3></div>' + '<div id="minutes">' + t.seconds + '<h3>Seconds</h3></div>';
+                if(t.total<=0){
+                    clearInterval(timeinterval);
+                }
+            },1000);
+        }
+
+        var deadline = 'October 02 2016 12:00:00 GMT+0100';
+        initializeClock('countdown', deadline);
+
+    </script>
+
+    <script>
+        $('#mp-lightbox').featherlight();
+    </script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+1. Set up a mail chimp account
+2. Set up mail chimp form	
+6. Check over all the under 18s stuff (including the message on the site about it)
+8. Make sambahack redirect to hackthemidlands
+9. Verify hackthemidlands on mail chip- http://kb.mailchimp.com/accounts/account-setup/verify-a-domain
