@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db69e1fe-8942-4a4f-b4c9-fa7dc992fe73" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/clock.js" afterPath="$PROJECT_DIR$/js/clock.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/scss/_sponsors.scss" afterPath="$PROJECT_DIR$/style/scss/_sponsors.scss" />
     </list>
     <ignored path="Website.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,16 +29,26 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="253" column="8" selection-start-line="253" selection-start-column="8" selection-end-line="268" selection-end-column="17" />
+                <state relative-caret-position="480">
+                  <caret line="177" column="86" selection-start-line="177" selection-start-column="86" selection-end-line="177" selection-end-column="86" />
                   <folding>
                     <element signature="n#style#0;n#h3#0;n#a#2;n#div#4;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <marker date="1491311364000" expanded="false" signature="8955:8965" ph="..." />
-                    <marker date="1491311364000" expanded="false" signature="9180:9190" ph="..." />
+                    <marker date="1491311624000" expanded="false" signature="8963:8973" ph="..." />
+                    <marker date="1491311624000" expanded="false" signature="9188:9198" ph="..." />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_sponsors.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/style/scss/_sponsors.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="390">
+                  <caret line="31" column="4" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="27" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -109,8 +120,8 @@
           <file leaf-file-name="countdown.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/style/scss/countdown.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="345">
-                  <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+                <state relative-caret-position="390">
+                  <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -148,12 +159,12 @@
       <list>
         <option value="$PROJECT_DIR$/style/scss/_team.scss" />
         <option value="$PROJECT_DIR$/style/scss/_header.scss" />
-        <option value="$PROJECT_DIR$/style/scss/_sponsors.scss" />
         <option value="$PROJECT_DIR$/style/js/clock.js" />
         <option value="$PROJECT_DIR$/style/scss/main.scss" />
         <option value="$PROJECT_DIR$/style/scss/countdown.scss" />
         <option value="$PROJECT_DIR$/js/clock.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/style/scss/_sponsors.scss" />
       </list>
     </option>
   </component>
@@ -208,6 +219,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="style" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scss" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -326,12 +355,12 @@
       <workItem from="1490893513153" duration="3941000" />
       <workItem from="1490981073220" duration="213000" />
       <workItem from="1491166235673" duration="524000" />
-      <workItem from="1491306016670" duration="5199000" />
+      <workItem from="1491306016670" duration="5635000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9877000" />
+    <option name="totallyTimeSpent" value="10313000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="2560" height="1054" extended-state="6" />
@@ -377,8 +406,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#h3#0;n#a#2;n#div#4;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1491311364000" expanded="false" signature="8955:8965" ph="..." />
-            <marker date="1491311364000" expanded="false" signature="9180:9190" ph="..." />
+            <marker date="1491311624000" expanded="false" signature="8963:8973" ph="..." />
+            <marker date="1491311624000" expanded="false" signature="9188:9198" ph="..." />
           </folding>
         </state>
       </provider>
@@ -397,8 +426,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#h3#0;n#a#2;n#div#4;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1491311364000" expanded="false" signature="8955:8965" ph="..." />
-            <marker date="1491311364000" expanded="false" signature="9180:9190" ph="..." />
+            <marker date="1491311624000" expanded="false" signature="8963:8973" ph="..." />
+            <marker date="1491311624000" expanded="false" signature="9188:9198" ph="..." />
           </folding>
         </state>
       </provider>
@@ -423,14 +452,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style/scss/_sponsors.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -507,14 +528,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/scss/countdown.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/clock.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="470">
@@ -525,13 +538,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="253" column="8" selection-start-line="253" selection-start-column="8" selection-end-line="268" selection-end-column="17" />
+        <state relative-caret-position="480">
+          <caret line="177" column="86" selection-start-line="177" selection-start-column="86" selection-end-line="177" selection-end-column="86" />
           <folding>
             <element signature="n#style#0;n#h3#0;n#a#2;n#div#4;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1491311364000" expanded="false" signature="8955:8965" ph="..." />
-            <marker date="1491311364000" expanded="false" signature="9180:9190" ph="..." />
+            <marker date="1491311624000" expanded="false" signature="8963:8973" ph="..." />
+            <marker date="1491311624000" expanded="false" signature="9188:9198" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/scss/countdown.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/scss/_sponsors.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="31" column="4" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>

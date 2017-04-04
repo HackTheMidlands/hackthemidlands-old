@@ -385,8 +385,7 @@ a {
     background-color: black;
     margin: 15px 0px 25px 0px; }
   #sponsors .sponsors-list {
-    text-align: center;
-    padding-bottom: 80px; }
+    text-align: center; }
     #sponsors .sponsors-list .gold .sponsor-icons {
       width: 50% !important; }
     #sponsors .sponsors-list .silver .sponsor-icons {
