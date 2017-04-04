@@ -583,4 +583,22 @@ footer {
       float: right;
       padding: 0px 30px 0px 0px; }
 
+#countdown div {
+  text-align: center;
+  display: inline-block;
+  font-family: "ingra", Arial;
+  margin: 20px; }
+  #countdown div .days, #countdown div .hours, #countdown div .minutes, #countdown div .seconds {
+    font-size: 50px; }
+  #countdown div .days, #countdown div .days, #countdown div .hours, #countdown div .minutes, #countdown div .seconds, #countdown div .smalltext {
+    display: block; }
+  #countdown div .smalltext {
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: 300; }
+
+@media screen and (max-width: 450px) {
+  #countdown div {
+    display: block; } }
+
 /*# sourceMappingURL=main.css.map */
