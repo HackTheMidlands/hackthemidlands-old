@@ -5,58 +5,70 @@
   background-repeat: repeat;
   .team-container{
     padding: 5% 5%;
-  }
-  h2{
-    font-weight: 500;
-    font-size: 60px;
-    letter-spacing:4px;
-    color: white;
-    text-transform: uppercase;
-  }
-  h3{
-    font-weight: 300;
-    padding-bottom: 50px;
-    letter-spacing: 2px;
-    color: white;
-    text-align: justify;
-  }
-  hr{
-    border: none;
-    height: 2px;
-    background-color: white;
-    margin: 15px 0px 25px 0px;
+    &__header{
+      h2{
+        font-weight: 500;
+        font-size: 60px;
+        letter-spacing:4px;
+        color: white;
+        text-transform: uppercase;
+      }
+      h3{
+        font-weight: 300;
+        padding-bottom: 50px;
+        letter-spacing: 2px;
+        color: white;
+        text-align: justify;
+      }
+      hr{
+        border: none;
+        height: 2px;
+        background-color: white;
+        margin: 15px 0px 25px 0px;
 
+      }
+    }
   }
   .team-grid-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    .team-grid{
+    .team-member{
       width: 27%;
       text-align: center;
       background-color: white;
       margin: 20px;
-      max-height: 381px;
-      height: 381px;
-      h3{
-        padding: 20px 0px;
-        color: black;
-        text-align: center;
-        font-weight: 500;
-      }
-      h5{
-        margin: 0px;
-        padding: 0px 0px 30px 0px;
-        font-weight: 300;
-        font-size: 18px;
-        width: 90%;
-        margin: auto;
-      }
-      .team-member-picture{
+      height: 350px;
+      &__picture{
         width: 100%;
         background-size: cover;
         background-position: center;
-        height: 250px;
+        height: 60%;
+      }
+      &__text{
+        height: 40%;
+        vertical-align: middle;
+        line-height: inherit;
+        text-align: center;
+        h3{
+          padding-bottom: 5px;
+          color: black;
+          text-align: center;
+          font-weight: 500;
+        }
+        h5{
+          margin: 0px;
+          //padding: 0px 0px 30px 0px;
+          font-weight: 300;
+          font-size: 18px;
+          width: 90%;
+          margin: auto;
+        }
+        &__content{
+          position: relative;
+          top: 50%;
+          transform: translateY(-50%);
+        }
       }
     }
   }
@@ -70,57 +82,81 @@
 }
 
 /*Team Images*/
-#t1{
-  background-image: url("../../images/team/oliver.jpg");
-}
 #t2{
   background-image: url("../../images/team/tom.jpg");
-}
-#t3{
-  background-image: url("../../images/team/adam.jpg");
-}
-#t4{
-  background-image: url("../../images/team/pandelis.jpg");
 }
 #t5{
   background-image: url("../../images/team/alex.jpg");
 }
-#t6{
-  background-image: url("../../images/team/tomcamb.jpg");
-}
 #t7{
   background-image: url("../../images/team/liam.jpg");
 }
-#t8{
-  background-image: url("../../images/team/cat.jpg");
-}
-#t9{
-  background-image: url("../../images/team/matt.jpg");
-}
-#t10{
-  background-image: url("../../images/team/jack.jpg");
-}
-#t11{
-  background-image: url("../../images/team/andrew.jpg");
-}
-#t12{
-  background-image: url("../../images/team/emma.jpg");
-}
 
-@media screen and (max-width: 980px){
-  .team-grid{
-    width: 43% !important;
+@media screen and (min-width: 1700px){
+  #team{
+    .team-grid-container{
+      .team-grid{
+        height: 550px;
+      }
+      .team-member{
+        &__picture{
+          height: 70%;
+        }
+        &__text{
+          height: 30%;
+        }
+      }
+    }
   }
 }
+
+@media screen and (min-width: 1450px){
+  #team{
+    .team-grid-container{
+      .team-grid{
+        height: 420px;
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 980px){
+  #team{
+    .team-grid-container{
+      .team-member{
+        height: 400px;
+        width: 43%;
+      }
+    }
+  }
+}
+
 
 @media screen and (max-width: 715px){
   .team-grid{
-    width: 70% !important;
-    max-height: 450px !important;
-    height: 450px !important;
+    max-height: 450px;
+    height: 450px;
   }
-  .team-member-picture{
-    height: 330px !important;
+  #team{
+    .team-grid-container{
+      .team-member{
+        width: 70%;
+      }
+    }
   }
 }
+
+@media screen and (max-width: 500px){
+  #team{
+    .team-grid-container{
+      .team-member{
+        //height: 400px;
+        width: 90%;
+      }
+    }
+  }
+}
+
+
 

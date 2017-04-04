@@ -102,7 +102,7 @@
       font-weight: 400;
       color: white;
       padding: 0px 5%;
-      span{
+      .header-title{
         font-size: 50px;
         text-transform: uppercase;
         font-weight: 600;
@@ -170,6 +170,26 @@
   }
 }
 
+
+
+@media screen and (max-width: 650px){
+  #hero{
+    .header-content{
+      .header-title{
+        span{
+          display: block;
+        }
+      }
+      button{
+        display: block;
+      }
+      #sponsor-button{
+        margin-top: 15px;
+      }
+    }
+  }
+}
+
 /*Without Event info 550px width */
 
 @media screen and (max-width: 778px){
@@ -179,5 +199,21 @@
   }
   .nav-right-content a{
     display: none !important;
+  }
+}
+
+@media screen and (max-width: 415px){
+  #hero{
+    .header-content{
+      h1{
+        font-size: 28px;
+        .header-title{
+          font-size: 40px;
+        }
+      }
+      h3{
+        font-size: 17px;
+      }
+    }
   }
 }
