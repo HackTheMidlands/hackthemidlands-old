@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db69e1fe-8942-4a4f-b4c9-fa7dc992fe73" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/clock.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/style/js/featherlight.js" afterPath="$PROJECT_DIR$/js/featherlight.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/style/js/timetable.min.js" afterPath="$PROJECT_DIR$/js/timetable.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/.sass-cache/9d18d7056bc2b00d8b9f1d4a1bb7b0c8afbac04e/countdown.scssc" afterPath="$PROJECT_DIR$/style/.sass-cache/9d18d7056bc2b00d8b9f1d4a1bb7b0c8afbac04e/countdown.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/.sass-cache/9d18d7056bc2b00d8b9f1d4a1bb7b0c8afbac04e/main.scssc" afterPath="$PROJECT_DIR$/style/.sass-cache/9d18d7056bc2b00d8b9f1d4a1bb7b0c8afbac04e/main.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-info.html" afterPath="$PROJECT_DIR$/event-info.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/css/countdown.css" afterPath="$PROJECT_DIR$/style/css/countdown.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/css/countdown.css.map" afterPath="$PROJECT_DIR$/style/css/countdown.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/css/main.css" afterPath="$PROJECT_DIR$/style/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/css/main.css.map" afterPath="$PROJECT_DIR$/style/css/main.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/scss/countdown.scss" afterPath="$PROJECT_DIR$/style/scss/countdown.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/scss/main.scss" afterPath="$PROJECT_DIR$/style/scss/main.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/clock.js" afterPath="$PROJECT_DIR$/js/clock.js" />
     </list>
     <ignored path="Website.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,25 +28,25 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="405">
-                  <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+                <state relative-caret-position="60">
+                  <caret line="253" column="8" selection-start-line="253" selection-start-column="8" selection-end-line="268" selection-end-column="17" />
                   <folding>
                     <element signature="n#style#0;n#h3#0;n#a#2;n#div#4;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <marker date="1491310885000" expanded="false" signature="9001:9011" ph="..." />
-                    <marker date="1491310885000" expanded="false" signature="9226:9236" ph="..." />
+                    <marker date="1491311364000" expanded="false" signature="8955:8965" ph="..." />
+                    <marker date="1491311364000" expanded="false" signature="9180:9190" ph="..." />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="clock.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="clock.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/clock.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="425">
-                  <caret line="40" column="69" selection-start-line="40" selection-start-column="69" selection-end-line="40" selection-end-column="69" />
+                <state relative-caret-position="470">
+                  <caret line="43" column="39" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
                   <folding />
                 </state>
               </provider>
@@ -164,8 +152,8 @@
         <option value="$PROJECT_DIR$/style/js/clock.js" />
         <option value="$PROJECT_DIR$/style/scss/main.scss" />
         <option value="$PROJECT_DIR$/style/scss/countdown.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/clock.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -338,12 +326,12 @@
       <workItem from="1490893513153" duration="3941000" />
       <workItem from="1490981073220" duration="213000" />
       <workItem from="1491166235673" duration="524000" />
-      <workItem from="1491306016670" duration="5001000" />
+      <workItem from="1491306016670" duration="5199000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9679000" />
+    <option name="totallyTimeSpent" value="9877000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="2560" height="1054" extended-state="6" />
@@ -389,8 +377,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#h3#0;n#a#2;n#div#4;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1491310885000" expanded="false" signature="9001:9011" ph="..." />
-            <marker date="1491310885000" expanded="false" signature="9226:9236" ph="..." />
+            <marker date="1491311364000" expanded="false" signature="8955:8965" ph="..." />
+            <marker date="1491311364000" expanded="false" signature="9180:9190" ph="..." />
           </folding>
         </state>
       </provider>
@@ -409,8 +397,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#h3#0;n#a#2;n#div#4;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1491310885000" expanded="false" signature="9001:9011" ph="..." />
-            <marker date="1491310885000" expanded="false" signature="9226:9236" ph="..." />
+            <marker date="1491311364000" expanded="false" signature="8955:8965" ph="..." />
+            <marker date="1491311364000" expanded="false" signature="9180:9190" ph="..." />
           </folding>
         </state>
       </provider>
@@ -527,23 +515,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/clock.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-          <folding>
-            <element signature="n#style#0;n#h3#0;n#a#2;n#div#4;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1491310885000" expanded="false" signature="9001:9011" ph="..." />
-            <marker date="1491310885000" expanded="false" signature="9226:9236" ph="..." />
-          </folding>
+        <state relative-caret-position="470">
+          <caret line="43" column="39" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/clock.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="40" column="69" selection-start-line="40" selection-start-column="69" selection-end-line="40" selection-end-column="69" />
-          <folding />
+        <state relative-caret-position="60">
+          <caret line="253" column="8" selection-start-line="253" selection-start-column="8" selection-end-line="268" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#h3#0;n#a#2;n#div#4;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1491311364000" expanded="false" signature="8955:8965" ph="..." />
+            <marker date="1491311364000" expanded="false" signature="9180:9190" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

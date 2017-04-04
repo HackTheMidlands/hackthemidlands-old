@@ -41,7 +41,5 @@ function initializeClock(id, endtime) {
 var deadline = new Date(Date.parse(new Date(2017, 08, 23, 10, 00, 00)));
 
 
+initializeClock('countdown', deadline);
 
-setTimeout(function(){
-    initializeClock('countdown', deadline)
-}, 100);
