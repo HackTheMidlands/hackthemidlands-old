@@ -385,7 +385,8 @@ a {
     background-color: black;
     margin: 15px 0px 25px 0px; }
   #sponsors .sponsors-list {
-    text-align: center; }
+    text-align: center;
+    padding-bottom: 80px; }
     #sponsors .sponsors-list .gold .sponsor-icons {
       width: 50% !important; }
     #sponsors .sponsors-list .silver .sponsor-icons {
@@ -399,16 +400,16 @@ a {
       margin: 0px 10px;
       display: block;
       margin: auto; }
-    #sponsors .sponsors-list .gold, #sponsors .sponsors-list .silver, #sponsors .sponsors-list .bronze, #sponsors .sponsors-list .partner {
+    #sponsors .sponsors-list .building, #sponsors .sponsors-list .gold, #sponsors .sponsors-list .silver, #sponsors .sponsors-list .bronze, #sponsors .sponsors-list .partner {
       text-align: center;
       margin-bottom: 100px; }
-      #sponsors .sponsors-list .gold h3, #sponsors .sponsors-list .silver h3, #sponsors .sponsors-list .bronze h3, #sponsors .sponsors-list .partner h3 {
+      #sponsors .sponsors-list .building h3, #sponsors .sponsors-list .gold h3, #sponsors .sponsors-list .silver h3, #sponsors .sponsors-list .bronze h3, #sponsors .sponsors-list .partner h3 {
         text-align: center; }
-      #sponsors .sponsors-list .gold .sponsor-icons, #sponsors .sponsors-list .silver .sponsor-icons, #sponsors .sponsors-list .bronze .sponsor-icons, #sponsors .sponsors-list .partner .sponsor-icons {
+      #sponsors .sponsors-list .building .sponsor-icons, #sponsors .sponsors-list .gold .sponsor-icons, #sponsors .sponsors-list .silver .sponsor-icons, #sponsors .sponsors-list .bronze .sponsor-icons, #sponsors .sponsors-list .partner .sponsor-icons {
         display: inline-block;
         width: 28%;
         margin: 20px; }
-        #sponsors .sponsors-list .gold .sponsor-icons img, #sponsors .sponsors-list .silver .sponsor-icons img, #sponsors .sponsors-list .bronze .sponsor-icons img, #sponsors .sponsors-list .partner .sponsor-icons img {
+        #sponsors .sponsors-list .building .sponsor-icons img, #sponsors .sponsors-list .gold .sponsor-icons img, #sponsors .sponsors-list .silver .sponsor-icons img, #sponsors .sponsors-list .bronze .sponsor-icons img, #sponsors .sponsors-list .partner .sponsor-icons img {
           width: 100%; }
   #sponsors #sponsor-slit-top {
     width: 100%;
@@ -525,6 +526,9 @@ a {
 
 #t7 {
   background-image: url("../../images/team/liam.jpg"); }
+
+#team-cat {
+  background-image: url("../../images/team/cat.jpg"); }
 
 @media screen and (min-width: 1700px) {
   #team .team-grid-container .team-grid {
