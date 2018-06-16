@@ -518,17 +518,20 @@ a {
     clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 66%); }
 
 /*Team Images*/
-#t2 {
+#team-tom {
   background-image: url("../../images/team/tom.jpg"); }
 
-#t5 {
-  background-image: url("../../images/team/alex.jpg"); }
+#team-helena {
+  background-image: url("../../images/team/helena.jpg"); }
 
-#t7 {
+#team-liam {
   background-image: url("../../images/team/liam.jpg"); }
 
 #team-cat {
   background-image: url("../../images/team/cat.jpg"); }
+
+#team-hugh {
+  background-image: url("../../images/team/hugh.jpg"); }
 
 @media screen and (min-width: 1700px) {
   #team .team-grid-container .team-grid {
