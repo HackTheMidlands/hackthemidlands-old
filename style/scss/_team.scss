@@ -82,18 +82,20 @@
 }
 
 /*Team Images*/
-#t2{
-  background-image: url("../../images/team/tom.jpg");
-}
-#t5{
-  background-image: url("../../images/team/alex.jpg");
-}
-#t7{
-  background-image: url("../../images/team/liam.jpg");
-}
-#team-cat{
-  background-image: url("../../images/team/cat.jpg");
-}
+#team-tom {
+  background-image: url("../../images/team/tom.jpg"); }
+
+#team-helena {
+  background-image: url("../../images/team/helena.jpg"); }
+
+#team-liam {
+  background-image: url("../../images/team/liam.jpg"); }
+
+#team-cat {
+  background-image: url("../../images/team/cat.jpg"); }
+
+#team-hugh {
+  background-image: url("../../images/team/hugh.jpg"); }
 
 @media screen and (min-width: 1700px){
   #team{
