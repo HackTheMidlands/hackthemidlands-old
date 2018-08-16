@@ -86,7 +86,8 @@ a {
       letter-spacing: 3px;
       font-size: 35px; }
   .navigation .nav-right {
-    width: 88%;
+    width: 76%;
+    margin-right: 12%;
     float: right;
     display: inline-block; }
     .navigation .nav-right .nav-right-content {
