@@ -38,7 +38,9 @@ function initializeClock(id, endtime) {
     var timeinterval = setInterval(updateClock, 1000);
 }
 
-var deadline = new Date(Date.parse(new Date(2018, 11, 3, 10, 00, 00)));
+// Javascript zero-indexes months.
+// Please don't ask why.
+var deadline = new Date(Date.parse(new Date(2018, 10, 3, 10, 00, 00)));
 
 
 initializeClock('countdown', deadline);
