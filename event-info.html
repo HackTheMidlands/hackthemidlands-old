@@ -28,7 +28,7 @@
             <a href="index.html#event-info">About Us</a>
             <a href="index.html#sponsors">Sponsors</a>
             <a href="index.html#team">Team</a>
-            <a href="https://www.eventbrite.co.uk/e/hackthemidlands-tickets-27322918585">Tickets</a>
+            <a href="https://www.eventbrite.co.uk/e/hackthemidlands-30-tickets-47296240328">Tickets</a>
             <a href="event-info.html">Event Information</a>
         </div>
     </div>
@@ -45,7 +45,7 @@
                     <a href="index.html#event-info">About Us</a>
                     <a href="index.html#sponsors">Sponsors</a>
                     <a href="index.html#team">Team</a>
-                    <a href="https://www.eventbrite.co.uk/e/hackthemidlands-tickets-27322918585">Tickets</a>
+                    <a href="https://www.eventbrite.co.uk/e/hackthemidlands-30-tickets-47296240328">Tickets</a>
                     <a href="event-info.html">Event Information</a>
                     <div class="nav-mobile"></div>
                 </div>
@@ -84,7 +84,7 @@
     </section>
 
     <!--Sponsor Challenges-->
-
+    <!-- 
     <section id="sponsor-challenges">
         <div class="container">
             <h2>Sponsor Challenges</h2>
@@ -98,7 +98,6 @@
                         <div class="sponsor-item-right-content">
                             <h3>Majestic Challenge</h3>
                             <p>Most creative use of - Mash it up, Visualise it, Have fun with it!</p>
-                            <!--<a href=""><button class="button-black">Get API key</button></a>-->
                             <br>
                             <p>Get the API key from our desk!</p>
                         </div>
@@ -119,30 +118,17 @@
                     </div>
                 </div>
             </div>
-            <!--<div class="sponsor-item" id="majestic">-->
-                <!--<div class="sponsor-item-left">-->
-                    <!--<img src="images/sponsors/majestic.png" alt="Majestic"/>-->
-                <!--</div>-->
-                <!--<div class="sponsor-item-right">-->
-                    <!--<div class="sponsor-item-right-content">-->
-                        <!--<h3>Challenge Title</h3>-->
-                        <!--<p>We challenge you to use the most creative use of our API to extract some sick data from the web!</p>-->
-                        <!--<a href=""><button class="button-black">Get API key</button></a>-->
-                    <!--</div>-->
-                <!--</div>-->
-            <!--</div>-->
         </div>
-    </section>
+    </section>-->
 
     <section id="schedule">
         <div class="container">
             <h2>Schedule</h2>
             <hr/>
             <h3>Saturday</h3>
-            <div class="timetable"></div>
+            <div class="timetable" id="timetable"></div>
             <h3>Sunday</h3>
-            <div class="timetable2"></div>
-            <h4>Coming Soon...!</h4>
+            <div class="timetable" id="timetable2"></div>
         </div>
     </section>
 
@@ -156,30 +142,6 @@
                 make sure you do it <strong>NOW!</strong></h3>
             <h1>NOW GO HACK AND HAVE FUN!</h1>
         </div>
-    </section>
-
-    <section id="lightboxes">
-        <div class="lightbox" id="mp-challenge">
-            <h2>Millenium Point Challenge</h2>
-            <p>Millennium Point have been using counters to track visitor numbers since Feb 2015 and now that comparative data is available, are looking for interesting ways to convey the flow of visitors to the building at different stages of the year.
-                <br>They are particularly interested in the following:</p>
-
-            <ul>
-                <li>Identifying and displaying peak periods of visitor activity across the calendar and across the financial year</li>
-                <li>Visualisations of visitor data, by place of entrance, during Birmingham school holidays</li>
-                <li>Visualisations of visitor data, by place of entrance, for weekends versus week days across the year</li>
-                <li>Visualisations of visitor data, by place of entrance, with BCU term time versus outside of term</li>
-                <li>Looking at the entrances used during events with large attendee numbers versus day to day business</li>
-            </ul>
-            <p>The data should ideally presented consistently with Millennium Point's branding including colour scheme and font.<br>
-                The data could be used to help us to inform everything from rate card value of the space for hire, the staffing levels
-                required across the building at different points of the year, or the rate card value of any advertising space offered within
-                the building.<br>The data could be presented to a wide range of audiences; either online, on displays (16:9) within the building,
-                to our tenants, but also to board members.</p>
-            <a href="MPdata.xlsx"><button style="margin: 20px 0px" class="button-black">Download Excel file</button></a>
-        </div>
-
-        <div class="lightbox" id="spotify"><h1>Add to our Spotify playlist!</h1><h4>spotify:user:speedatw:playlist:34soYcGAkLYB2eD2YGSU9W</h4><p>Paste the above text into your search bar in the Spotify Desktop client.</p></div>
     </section>
 
     <script>
@@ -201,25 +163,43 @@
 
     <script>
         $(document).ready(function(){
+            // Timetable
             var timetable = new Timetable();
-            timetable.setScope(9, 23);
+            timetable.setScope(10, 23);
             timetable.addLocations(['Main Hall', 'Food Table', 'Entertainment']);
             //Main Hall
-            timetable.addEvent('Doors Open', 'Main Hall', new Date(2016,10,1,9,30), new Date(2016,10,1,10,00));
-            timetable.addEvent('Welcome Presentation', 'Main Hall', new Date(2016,10,1,11,00), new Date(2016,10,1,12,00));
-            timetable.addEvent('Hacking!', 'Main Hall', new Date(2016,10,1,12,00), new Date(2016,10,1,23,00));
+            timetable.addEvent('Doors Open', 'Main Hall', new Date(2018,11,3,10,00), new Date(2018,11,3,11,00));
+            timetable.addEvent('Welcome Presentation', 'Main Hall', new Date(2018,11,3,11,00), new Date(2018,11,3,12,00));
+            timetable.addEvent('Hacking!', 'Main Hall', new Date(2018,11,3,12,00), new Date(2018,11,3,12,01));
+            timetable.addEvent('Presentations', 'Main Hall', new Date(2018,11,4,14,00), new Date(2018,11,4,16,00));
+            timetable.addEvent('Closing ceremony', 'Main Hall', new Date(2018,11,4,16,00), new Date(2018,11,4,16,30));
             //Food Table
-            timetable.addEvent('Lunch', 'Food Table', new Date(2016,10,1,13,00), new Date(2016,10,1,14,00));
-            timetable.addEvent('Dinner', 'Food Table', new Date(2016,10,1,19,00), new Date(2016,10,1,20,00));
+            timetable.addEvent('Lunch', 'Food Table', new Date(2018,11,3,13,00), new Date(2018,11,3,14,00));
+            timetable.addEvent('Dinner', 'Food Table', new Date(2018,11,3,19,00), new Date(2018,11,3,20,00));
+            timetable.addEvent('Breakfast', 'Food Table', new Date(2018,11,4,08,00), new Date(2018,11,4,09,00));
+            timetable.addEvent('Lunch', 'Food Table', new Date(2018,11,4,13,00), new Date(2018,11,4,14,00));
             //Entertainment
-            timetable.addEvent('Meet & Greet + Idea Creation', 'Entertainment', new Date(2016,10,1,12,00), new Date(2016,10,1,14,00));
-            timetable.addEvent('Code In The Dark', 'Entertainment', new Date(2016,10,1,20,30), new Date(2016,10,1,22,00));
-            timetable.addEvent('Werewolf', 'Entertainment', new Date(2016,10,1,22,00), new Date(2016,10,1,23,00));
+            timetable.addEvent('Code In The Dark', 'Entertainment', new Date(2018,11,3,20,00), new Date(2018,11,3,21,00));
+            timetable.addEvent('Werewolf', 'Entertainment', new Date(2018,11,3,22,00), new Date(2018,11,3,23,00));
 
 
             //Render Timetable
             var renderer = new Timetable.Renderer(timetable);
-            renderer.draw('.timetable'); // any css selector
+            renderer.draw('#timetable'); // any css selector
+
+            // Timetable 2
+            var timetable2 = new Timetable();
+            timetable2.setScope(8, 17);
+            timetable2.addLocations(['Main Hall', 'Food Table', 'Entertainment']);
+            //Main Hall
+            timetable2.addEvent('Presentations', 'Main Hall', new Date(2018,11,4,14,00), new Date(2018,11,4,16,00));
+            timetable2.addEvent('Closing ceremony', 'Main Hall', new Date(2018,11,4,16,00), new Date(2018,11,4,16,30));
+            //Food Table
+            timetable2.addEvent('Breakfast', 'Food Table', new Date(2018,11,4,08,00), new Date(2018,11,4,09,00));
+            timetable2.addEvent('Lunch', 'Food Table', new Date(2018,11,4,13,00), new Date(2018,11,4,14,00));
+
+            var renderer2 = new Timetable.Renderer(timetable2);
+            renderer2.draw('#timetable2'); // any css selector
         });
     </script>
 
