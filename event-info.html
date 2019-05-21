@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="./style/css/timetablejs.css">
 
     <script src="js/timetable.min.js"></script>
+    <script src="js/clock.js"></script>
 </head>
 
 <body>
@@ -61,7 +62,23 @@
         <div class="container">
             <div class="nav-text">
                 <h1>You have:</h1>
-                <div id="countdown"></div>
+                <div id="countdown">
+                    <div id="days">
+                        <span class="days"></span>
+                        <h3>Days</h3>
+                    </div>
+                    <div id="hours">
+                        <span class="hours"></span>
+                        <h3>Hours</h3>
+                    </div>
+                    <div id="minutes">
+                        <span class="minutes"></span>
+                        <h3>Minutes</h3>
+                    </div>
+                    <div id="seconds">
+                        <span class="seconds"></span>
+                        <h3>Seconds</h3>
+                    </div>
                 <h1>left</h1>
             </div>
             <ul>
@@ -270,37 +287,6 @@
                 maxHeight: '0px'
             });
         });
-    </script>
-    <script type="text/javascript">
-        function getTimeRemaining(endtime){
-            var t = Date.parse(endtime) - Date.parse(new Date());
-            var seconds = Math.floor( (t/1000) % 60 );
-            var minutes = Math.floor( (t/1000/60) % 60 );
-            var hours = Math.floor( (t/(1000*60*60)) % 24 );
-            var days = Math.floor( t/(1000*60*60*24) );
-            return {
-                'total': t,
-                'days': days,
-                'hours': hours,
-                'minutes': minutes,
-                'seconds': seconds
-            };
-        }
-
-        function initializeClock(id, endtime){
-            var clock = document.getElementById(id);
-            var timeinterval = setInterval(function(){
-                var t = getTimeRemaining(endtime);
-                clock.innerHTML = '<div id="days">' + t.days + '<h3>Days</h3></div>' + '<div id="hours">' + t.hours + '<h3>Hours</h3></div>' + '<div id="minutes">' + t.minutes + '<h3>Minutes</h3></div>' + '<div id="minutes">' + t.seconds + '<h3>Seconds</h3></div>';
-                if(t.total<=0){
-                    clearInterval(timeinterval);
-                }
-            },1000);
-        }
-
-        var deadline = 'November 04 2018 12:00:00 GMT+0100';
-        initializeClock('countdown', deadline);
-
     </script>
 
     <script>

@@ -74,8 +74,11 @@ a {
   height: auto;
   position: absolute;
   z-index: 10;
-  width: 100%; }
+  width: 100%;
+  display: flex;
+  flex-direction: row; }
   .navigation .nav-left {
+    flex: auto;
     width: 11%;
     display: inline-block;
     position: relative;
@@ -86,12 +89,10 @@ a {
       letter-spacing: 3px;
       font-size: 35px; }
   .navigation .nav-right {
-    width: 76%;
-    margin-right: 12%;
-    float: right;
-    display: inline-block; }
+    text-align: right;
+    display: inline-block;
+    flex: 1 1 auto; }
     .navigation .nav-right .nav-right-content {
-      float: right;
       width: auto; }
       .navigation .nav-right .nav-right-content .nav-mobile {
         visibility: hidden;
@@ -107,22 +108,26 @@ a {
         display: none;
         position: relative;
         z-index: 1000; }
-    .navigation .nav-right a {
-      display: inline-block;
-      padding: 20px;
-      text-decoration: none;
-      color: white;
-      cursor: pointer;
-      text-transform: uppercase;
-      vertical-align: top; }
-    .navigation .nav-right a:hover {
-      position: relative;
-      border-top: 5px solid white;
-      padding-top: 10px; }
-    .navigation .nav-right img {
-      height: 150px;
-      display: inline-block;
-      padding-right: 10px; }
+      .navigation .nav-right .nav-right-content .links {
+        padding-right: 130px; }
+        .navigation .nav-right .nav-right-content .links a {
+          display: inline-block;
+          padding: 20px;
+          text-decoration: none;
+          color: white;
+          cursor: pointer;
+          text-transform: uppercase;
+          vertical-align: top; }
+        .navigation .nav-right .nav-right-content .links a:hover {
+          position: relative;
+          border-top: 5px solid white;
+          padding-top: 10px; }
+      .navigation .nav-right .nav-right-content .badge {
+        width: 100px;
+        position: fixed;
+        top: 0;
+        right: 20px;
+        z-index: 1000; }
 
 .video-container {
   position: absolute;
@@ -207,8 +212,8 @@ a {
       display: block;
       height: 20px;
       cursor: pointer; }
-    #hero .social-links-header #facebook {
-      margin-bottom: 30px; }
+    #hero .social-links-header #facebook, #hero .social-links-header #twitter {
+      margin-bottom: 20px; }
   #hero .social-links-header:hover {
     background-color: rgba(255, 255, 255, 0.2); }
 
@@ -225,7 +230,9 @@ a {
     visibility: visible !important;
     display: inline-block !important; }
 
-  .nav-right-content a {
+  .nav-right-content .links a {
+    display: none !important; }
+  .nav-right-content .badge {
     display: none !important; } }
 @media screen and (max-width: 415px) {
   #hero .header-content h1 {

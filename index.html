@@ -13,6 +13,8 @@
         <script src="https://use.typekit.net/dme1ptj.js"></script>
         <script>try{Typekit.load({ async: true });}catch(e){}</script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script src="./js/clock.js"></script>
+
         <style>
             #event-info a {
                 color: #fff;
@@ -38,7 +40,7 @@
             <a href="#event-info">About Us</a>
             <a href="#sponsors">Sponsors</a>
             <a href="#team">Team</a>
-            <a href="/">Get Tickets</a>
+            <a href="#">Get Tickets</a>
             <a href="event-info.html">Event Information</a>
         </div>
       </div>
@@ -59,25 +61,29 @@
                     </div>
                     <div class="nav-right">
                         <div class="nav-right-content">
-                            <a href="#event-info">About Us</a>
-                            <a href="#sponsors">Sponsors</a>
-                            <a href="#team">Team</a>
-                            <a href=/>Get Tickets</a>
-                            <a href="event-info.html">Event Information</a>
+                            <div class="links">
+                                <a href="#event-info">About Us</a>
+                                <a href="#sponsors">Sponsors</a>
+                                <a href="#team">Team</a>
+                                <a href="#">Get Tickets</a>
+                                <a href="event-info.html">Event Information</a>
+                            </div>
                             <div class="nav-mobile"></div>
+                            <a id="mlh-badge" class="badge" href="https://mlh.io/seasons/eu-2019/events?utm_source=eu-hackathon&utm_medium=TrustBadge&utm_campaign=2019-season&utm_content=white" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg" alt="Major League Hacking 2019 Hackathon Season"></a>
                         </div>
                     </div>
                 </div>
             <div class="header-content">
                 <h1>Are you ready for <br/><span class="header-title"><span>Hack</span><span>The</span><span>Midlands? </span></span></h1>
                 <h3>26<sup>th</sup> - 27<sup>th</sup> October</h3>
-                <a href="https://www.eventbrite.co.uk/e/hackthemidlands-30-tickets-47296240328"><button id="apply-button">Get Tickets</button></a>
+                <a href="#"><button id="apply-button">Get Tickets</button></a>
                 <a href="sponsorship.pdf"><button id="sponsor-button">Sponsor Us</button></a>
                 <a href="https://www.youtube.com/watch?v=bakpTO7weKk"><h3 style="font-size: 15px; padding-top: 10px; font-weight: 500">Watch The Video!</h3></a>
             </div>
             <div class="social-links-header">
                 <a target="_blank" href="https://www.facebook.com/hackthemidlands/"><img id="facebook" src="images/facebook.svg"/></a>
-                <a target="_blank" href="https://www.eventbrite.co.uk/e/hackthemidlands-30-tickets-47296240328"><img src="images/event-brite.png"/></a>
+                <a target="_blank" href="https://twitter.com/hackthemidlands/"><img id="twitter" src="images/twitter.svg"/></a>
+                <a target="_blank" href=""><img src="images/event-brite.png"/></a>
             </div>
         </section>
         <section id="event-countdown">
@@ -115,8 +121,8 @@
                 <hr/>
                 <div class="faq-post">
                     <h2>What is <span class="span-capital">HackThe<span>Midlands?</span></span></h2>
-                    <p>  HackTheMidlands is a 24-hour, inclusive hackathon being hosted in Birmingham on the 3rd-4th November 2018 at Millennium Point. </p>
-                    <p> Over the 24 hours, people aged 14+ of all skill levels <b>(you don't have to be a professional or a student! Just be lovely, passionate and interested in tech!)</b> will come together to share ideas, and create new and awesome projects! (Not sure what a hackathon is? MLH have a great explanation <a href="https://mlh.io/college-administrator-hackathon-guide">here</a>). </p>
+                    <p>HackTheMidlands is a 24-hour, inclusive hackathon being hosted in Birmingham on the 26th - 27th October at Millennium Point.</p>
+                    <p>Over the 24 hours, people aged 14+ of all skill levels <b>(you don't have to be a professional or a student! Just be lovely, passionate and interested in tech!)</b> will come together to share ideas, and create new and awesome projects! (Not sure what a hackathon is? MLH have a great explanation <a href="https://mlh.io/college-administrator-hackathon-guide">here</a>). </p>
                 </div>
                 <div class="faq-post">
                     <h2>Can Under 18s Attend?</span></h2>
@@ -132,8 +138,9 @@
                     <p>We will be following the Hack Code of Conduct, which can be found <a href="http://hackcodeofconduct.org/">here</a>.</p>
                 </div>
                 <h3>Join Us!</h3>
-                <p>Get your tickets now for HackTheMidlands and be guaranteed a spot in this year's hackathon!</p>
-                <a href="https://www.eventbrite.co.uk/e/hackthemidlands-30-tickets-47296240328"><button>Get Tickets</button></a>
+                <p>Tickets will be open for HackTheMidlands 4 soon!</p>
+                <!-- <p>Get your tickets now for HackTheMidlands and be guaranteed a spot in this year's hackathon!</p> -->
+                <!-- <a href="#"><button>Get Tickets</button></a> -->
             </div>
             <div class="google-maps">
                 <div id="faq-slit-bottom"></div>
@@ -244,8 +251,9 @@
                 <h3>Made with <img src="images/heart.svg"> by <a href="http://www.alexwiley.co.uk">alex wiley</a></h3>
             </div>
             <div class="social-links" id="footer-social">
-                <a target="_blank" href="https://www.facebook.com/hackthemidlands"><img src="images/facebook.svg"/></a>
                 <a target="_blank" href="http://eepurl.com/cIZiFf"><img src="images/event-brite.png"/></a>
+                <a target="_blank" href="https://twitter.com/hackthemidlands/"><img id="twitter" src="images/twitter.svg"/></a>
+                <a target="_blank" href="https://www.facebook.com/hackthemidlands"><img src="images/facebook.svg"/></a>
             </div>
         </footer>
 
@@ -294,7 +302,5 @@
             }
             myVideo.play();
         </script>
-      <script src="./js/clock.js"></script>
-    <a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000" href="https://mlh.io/seasons/eu-2019/events?utm_source=eu-hackathon&utm_medium=TrustBadge&utm_campaign=2019-season&utm_content=white" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg" alt="Major League Hacking 2019 Hackathon Season" style="width:100%"></a>
     </body>
 </html>
