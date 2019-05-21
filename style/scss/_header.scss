@@ -19,6 +19,7 @@
     width: 88%;
     float: right;
     display: inline-block;
+    float: right;
     .nav-right-content{
       float: right;
       width: auto;
@@ -37,26 +38,31 @@
         position: relative;
         z-index: 1000;
       }
-    }
-    a{
-      display: inline-block;
-      padding: 20px;
-      text-decoration: none;
-      color: white;
-      cursor: pointer;
-      text-transform: uppercase;
-      vertical-align: top;
-    }
-    a:hover{
-      position: relative;
-      border-top: 5px solid white;
-      padding-top: 10px;
-    }
-    img{
-      height: 150px;
-      display: inline-block;
-      padding-right: 10px;
-
+      .links{
+        display: inline;
+        a{
+          display: inline-block;
+          padding: 20px;
+          text-decoration: none;
+          color: white;
+          cursor: pointer;
+          text-transform: uppercase;
+          vertical-align: top;
+        }
+        a:hover{
+          position: relative;
+          border-top: 5px solid white;
+          padding-top: 10px;
+        }
+        img{
+          height: 150px;
+          display: inline-block;
+          padding-right: 10px;
+        }
+      }
+      .trust-badge{
+        margin-right: 20px;
+      }
     }
   }
 }
@@ -161,8 +167,8 @@
       height: 20px;
       cursor: pointer;
     }
-    #facebook{
-      margin-bottom: 30px;
+    #facebook,#twitter{
+      margin-bottom: 20px;
     }
   }
   .social-links-header:hover{
