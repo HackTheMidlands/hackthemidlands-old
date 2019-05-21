@@ -15,7 +15,6 @@ function getTimeRemaining(endtime) {
 
 function initializeClock(id, endtime) {
     var clock = document.getElementById(id);
-    console.log(clock);
     var daysSpan = clock.querySelector('.days');
     var hoursSpan = clock.querySelector('.hours');
     var minutesSpan = clock.querySelector('.minutes');
@@ -35,13 +34,14 @@ function initializeClock(id, endtime) {
     }
 
     updateClock();
-    var timeinterval = setInterval(updateClock, 1000);
+    var timeinterval = setInterval(updateClock, 250);
 }
 
-// Javascript zero-indexes months, but not days.
-// Please don't ask why.
-var deadline = new Date(Date.parse(new Date(2019, 9, 26, 10, 00, 00)));
+window.onload = function() {
+    // Javascript zero-indexes months, but not days.
+    // Please don't ask why.
+    var deadline = new Date(Date.parse(new Date(2019, 9, 26, 10, 00, 00)));
 
-
-initializeClock('countdown', deadline);
+    initializeClock('countdown', deadline);
+}
 
