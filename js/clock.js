@@ -37,11 +37,10 @@ function initializeClock(id, endtime) {
     var timeinterval = setInterval(updateClock, 250);
 }
 
-window.onload = function() {
+window.addEventListener('DOMContentLoaded', (event) => {
     // Javascript zero-indexes months, but not days.
     // Please don't ask why.
     var deadline = new Date(Date.parse(new Date(2019, 9, 26, 10, 00, 00)));
 
     initializeClock('countdown', deadline);
-}
-
+})
