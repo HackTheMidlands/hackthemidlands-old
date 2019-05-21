@@ -74,8 +74,11 @@ a {
   height: auto;
   position: absolute;
   z-index: 10;
-  width: 100%; }
+  width: 100%;
+  display: flex;
+  flex-direction: row; }
   .navigation .nav-left {
+    flex: auto;
     width: 11%;
     display: inline-block;
     position: relative;
@@ -86,12 +89,10 @@ a {
       letter-spacing: 3px;
       font-size: 35px; }
   .navigation .nav-right {
-    width: 88%;
-    float: right;
+    text-align: right;
     display: inline-block;
-    float: right; }
+    flex: 1 1 auto; }
     .navigation .nav-right .nav-right-content {
-      float: right;
       width: auto; }
       .navigation .nav-right .nav-right-content .nav-mobile {
         visibility: hidden;
@@ -108,7 +109,7 @@ a {
         position: relative;
         z-index: 1000; }
       .navigation .nav-right .nav-right-content .links {
-        display: inline; }
+        padding-right: 130px; }
         .navigation .nav-right .nav-right-content .links a {
           display: inline-block;
           padding: 20px;
@@ -121,12 +122,12 @@ a {
           position: relative;
           border-top: 5px solid white;
           padding-top: 10px; }
-        .navigation .nav-right .nav-right-content .links img {
-          height: 150px;
-          display: inline-block;
-          padding-right: 10px; }
-      .navigation .nav-right .nav-right-content .trust-badge {
-        margin-right: 20px; }
+      .navigation .nav-right .nav-right-content .badge {
+        width: 100px;
+        position: fixed;
+        top: 0;
+        right: 20px;
+        z-index: 1000; }
 
 .video-container {
   position: absolute;
@@ -229,7 +230,9 @@ a {
     visibility: visible !important;
     display: inline-block !important; }
 
-  .nav-right-content a {
+  .nav-right-content .links a {
+    display: none !important; }
+  .nav-right-content .badge {
     display: none !important; } }
 @media screen and (max-width: 415px) {
   #hero .header-content h1 {

@@ -3,7 +3,10 @@
   position: absolute;
   z-index: 10;
   width: 100%;
+  display: flex;
+  flex-direction: row;
   .nav-left{
+    flex: auto;
     width: 11%;
     display: inline-block;
     position: relative;
@@ -16,12 +19,10 @@
     }
   }
   .nav-right{
-    width: 88%;
-    float: right;
+    text-align: right;
     display: inline-block;
-    float: right;
+    flex: 1 1 auto;
     .nav-right-content{
-      float: right;
       width: auto;
       .nav-mobile{
         visibility: hidden;
@@ -39,7 +40,7 @@
         z-index: 1000;
       }
       .links{
-        display: inline;
+        padding-right: 130px;
         a{
           display: inline-block;
           padding: 20px;
@@ -54,14 +55,13 @@
           border-top: 5px solid white;
           padding-top: 10px;
         }
-        img{
-          height: 150px;
-          display: inline-block;
-          padding-right: 10px;
-        }
       }
-      .trust-badge{
-        margin-right: 20px;
+      .badge{
+        width: 100px;
+        position: fixed;
+        top: 0;
+        right: 20px;
+        z-index: 1000;
       }
     }
   }
@@ -203,8 +203,13 @@
     visibility: visible !important;
     display: inline-block !important;
   }
-  .nav-right-content a{
-    display: none !important;
+  .nav-right-content{
+    .links a{
+      display: none !important;
+    }
+    .badge{
+      display: none !important;
+    }
   }
 }
 
