@@ -36,8 +36,7 @@ button {
 
 a {
   outline: none;
-  text-decoration: none;
-  color: #2F8AD9; }
+  text-decoration: none; }
 
 * {
   transition: all 0.3s ease; }
@@ -250,7 +249,8 @@ a {
   text-align: left; }
   #event-info a {
     color: #fff;
-    font-weight: bold; }
+    font-weight: bold;
+    text-decoration: underline; }
   #event-info button {
     -webkit-appearance: none;
     padding: 10px 30px;
