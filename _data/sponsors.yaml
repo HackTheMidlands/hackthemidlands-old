@@ -1,0 +1,36 @@
+building:
+  - name: Millenium Point
+    link: https://www.millenniumpoint.org.uk/
+    logo: ./images/sponsors/mp.png
+
+gold:
+
+silver:
+  - name: Majestic
+    link: https://majestic.com/
+    logo: ./images/sponsors/majestic.png
+  - name: Capgemini
+    link: https://www.capgemini.com/
+    logo: ./images/sponsors/capgemini.png
+  - name: BCS
+    link: https://www.bcs.org/
+    logo: ./images/sponsors/bcs.png
+
+bronze:
+  - name: Kainos
+    link: https://www.kainos.com/
+    logo: ./images/sponsors/kainos.png
+  - name: CSS
+    link: https://cssbham.com/
+    logo: ./images/sponsors/css.png
+
+partners:
+  - name: MLH
+    link: https://mlh.io
+    logo: ./images/sponsors/mlh.png
+  - name: University of Birmingham Computer Science
+    link: https://www.cs.bham.ac.uk/
+    logo: ./images/sponsors/socs.png
+  - name: Levitation Events
+    link: https://levitationevents.co.uk/
+    logo: ./images/sponsors/levitation-events.png

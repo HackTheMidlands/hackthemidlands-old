@@ -155,29 +155,48 @@
                     <div class="building">
                         <img class="cat-icon" src="./images/building.svg"/>
                         <h2>Building Sponsor</h2>
+                        {% for sponsor in site.data.sponsors.building %}
                         <div class="sponsor-icons">
-                            <a href="https://www.millenniumpoint.org.uk/"><img id="mp" src="./images/sponsors/mp.png"/></a>
+                            <a href="{{ sponsor.link }}"><img src="{{ sponsor.logo }}"/></a>
                         </div>
+                        {% endfor %}
                     </div>
                     <div class="gold">
                         <img class="cat-icon" src="./images/gold-medal.svg"/>
                         <h2>Gold Sponsors</h2>
+                        {% for sponsor in site.data.sponsors.gold %}
+                        <div class="sponsor-icons">
+                            <a href="{{ sponsor.link }}"><img src="{{ sponsor.logo }}"/></a>
+                        </div>
+                        {% endfor %}
                     </div>
                     <div class="silver">
                         <img class="cat-icon" src="./images/silver-medal.svg"/>
                         <h2>Silver Sponsors</h2>
+                        {% for sponsor in site.data.sponsors.silver %}
+                        <div class="sponsor-icons">
+                            <a href="{{ sponsor.link }}"><img src="{{ sponsor.logo }}"/></a>
+                        </div>
+                        {% endfor %}
                     </div>
                     <div class="bronze">
                         <img class="cat-icon" src="./images/bronze-medal.svg"/>
                         <h2>Bronze Sponsors</h2>
+                        {% for sponsor in site.data.sponsors.bronze %}
+                        <div class="sponsor-icons">
+                            <a href="{{ sponsor.link }}"><img src="{{ sponsor.logo }}"/></a>
+                        </div>
+                        {% endfor %}
                     </div>
 
                     <div class="partner">
                         <img class="cat-icon" src="./images/deal.svg"/>
                         <h2>Partners</h2>
+                        {% for sponsor in site.data.sponsors.partners %}
                         <div class="sponsor-icons">
-                            <a href="//mlh.io/"><img id="mlh" src="./images/sponsors/mlh.png"/></a>
+                            <a href="{{ sponsor.link }}"><img src="{{ sponsor.logo }}"/></a>
                         </div>
+                        {% endfor %}
                     </div>
                 </div>
                 <a href="sponsorship.pdf"><button>Become A Sponsor!</button></a>
