@@ -31,7 +31,7 @@
   }
   .team-grid-container{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     .team-member{
       text-align: center;
       background-color: white;
@@ -77,6 +77,12 @@
   }
 }
 
+@media screen and (max-width: 1700px){
+  .team-grid-container{
+    grid-template-columns: repeat(4, 1fr) !important;
+  }
+}
+
 @media screen and (max-width: 1500px){
   .team-grid-container{
       grid-template-columns: repeat(3, 1fr) !important;
@@ -95,6 +101,6 @@
 
 @media screen and (max-width: 600px){
   .team-grid-container{
-    grid-template-columns: 1fr !important;
+    grid-template-columns: 2fr !important;
   }
 }

@@ -1,15 +1,30 @@
 - name: Tom Goodman
-  role: Lead Organiser
-  picture: /images/team/tom.jpg
+  role: Founder / Lead Organiser
+  picture: /images/team/TomGoodman.jpg
 - name: Liam Sorta
-  role: Technical Evangelist @ Unity Technologies
-  picture: /images/team/liam.jpg
+  role: Founder / Delight Lead
+  picture: /images/team/LiamSorta.jpg
 - name: Cat Dunicliff
-  role: Safeguarding Officer
-  picture: /images/team/cat.jpg
+  role: Founder / Safeguarding Lead
+  picture: /images/team/CatDunicliff.jpg
 - name: Helena Bower
-  role: Publicity Officer
-  picture: /images/team/helena.jpg
+  role: Publicity Lead
+  picture: /images/team/HelenaBower.jpg
 - name: Hugh Wells
-  role: Website and Networking
-  picture: /images/team/hugh.jpg
+  role: Infrastructure
+  picture: /images/team/HughWells.jpg
+- name: Jon Kingsley
+  role: Stage Manager / Networking Lead
+  picture: /images/team/JonKingsley.jpg
+- name: Will Russell
+  role: AV Lead
+  picture: /images/team/WillRussell.jpg
+- name: Charlie de Freitas
+  role: Web Lead
+  picture: /images/team/CharliedeFreitas.jpg
+- name: Justin Chadwell
+  role: CTF Lead / Webmaster
+  picture: /images/team/JustinChadwell.jpg
+- name: Likkan Chung
+  role: Publicity Officer
+  picture: /images/team/LikkanChung.jpg
