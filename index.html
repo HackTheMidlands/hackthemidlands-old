@@ -213,7 +213,13 @@
                 <div class="team-grid-container">
                     {% for person in site.data.team %}
                     <div class="team-grid team-member">
+                        {% if person.twitter %}
+                        <a class="team-member__picture_container" href="https://twitter.com/{{ person.twitter }}">
+                        {% else %}
+                        <a class="team-member__picture_container">
+                        {% endif %}
                         <img class="team-member__picture" src="{{ person.picture }}">
+                        </a>
                         <div class="team-member__text">
                             <div class="team-member__text__content">
                                 <h3>{{ person.name }}</h3>
