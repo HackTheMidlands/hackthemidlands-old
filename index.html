@@ -1,3 +1,6 @@
+---
+---
+
 <html>
     <head>
         <!--Stylesheets-->
@@ -189,51 +192,17 @@
                     <h3>Without a team of dedicated volunteers this hackathon simply would not happen. Here's your chance to meet the awesome people who are behind <span class="span-capital">hackTheMidlands</span></h3>
                 </div>
                 <div class="team-grid-container">
+                    {% for person in site.data.team %}
                     <div class="team-grid team-member">
-                        <img class="team-member__picture" src="/images/team/tom.jpg">
+                        <img class="team-member__picture" src="{{ person.picture }}">
                         <div class="team-member__text">
                             <div class="team-member__text__content">
-                                <h3>Tom Goodman</h3>
-                                <h5>Lead Organiser</h5>
+                                <h3>{{ person.name }}</h3>
+                                <h5>{{ person.role }}</h5>
                             </div>
                         </div>
                     </div>
-                    <div class="team-grid team-member">
-                        <img class="team-member__picture" src="/images/team/liam.jpg">
-                        <div class="team-member__text">
-                            <div class="team-member__text__content">
-                                <h3>Liam Sorta</h3>
-                                <h5>Technical Evangelist @ Unity Technologies</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="team-grid team-member">
-                        <img class="team-member__picture" src="/images/team/cat.jpg">
-                        <div class="team-member__text">
-                            <div class="team-member__text__content">
-                                <h3>Cat Dunicliff</h3>
-                                <h5>Safeguarding Officer</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="team-grid team-member">
-                        <img class="team-member__picture" src="/images/team/helena.jpg">
-                        <div class="team-member__text">
-                            <div class="team-member__text__content">
-                                <h3>Helena Bower</h3>
-                                <h5>Publicity Officer</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="team-grid team-member">
-                        <img class="team-member__picture" src="/images/team/hugh.jpg">
-                        <div class="team-member__text">
-                            <div class="team-member__text__content">
-                                <h3>Hugh Wells</h3>
-                                <h5>Website & Networking</h5>
-                            </div>
-                        </div>
-                    </div>
+                    {% endfor %}
                 </div>
             </div>
             <div id="team-slit-bottom"></div>
