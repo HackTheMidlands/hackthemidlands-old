@@ -4,24 +4,28 @@
     display: inline-block;
     font-family: "ingra", Arial;
     margin: 20px;
-    .days, .hours, .minutes, .seconds{
-      font-size: 50px;
-    }
-    .days, .days, .hours, .minutes, .seconds, .smalltext{
+    .days, .hours, .minutes, .seconds, .smalltext{
       display: block;
+      font-size: xx-large;
     }
     .smalltext{
-      font-size: 25px;
-      letter-spacing: 2px;
+      font-size: medium;
+      letter-spacing: 1px;
       font-weight: 300;
     }
   }
 }
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 600px){
   #countdown{
     div{
-      display: block;
+      margin: 5px;
+    }
+    .days, .hours, .minutes, .seconds{
+      font-size: 20px !important;
+    }
+    .smalltext {
+      font-size: 15px !important;
     }
   }
 }

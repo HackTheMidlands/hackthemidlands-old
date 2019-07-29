@@ -8,17 +8,16 @@
     &__header{
       h2{
         font-weight: 500;
-        font-size: 60px;
-        letter-spacing:4px;
+        font-size: xx-large;
+        letter-spacing:2px;
         color: white;
         text-transform: uppercase;
       }
       h3{
         font-weight: 300;
+        font-size: large;
         padding-bottom: 50px;
-        letter-spacing: 2px;
         color: white;
-        text-align: justify;
       }
       hr{
         border: none;
@@ -96,6 +95,18 @@
 }
 
 @media screen and (max-width: 600px){
+  .team-container{
+    &__header{
+      h2{
+        font-size: x-large !important;
+      }
+      h3{
+        font-size: medium !important;
+        letter-spacing: 0px !important;
+        padding-bottom: 15px !important;
+      }
+    }
+  }
   .team-grid-container{
     grid-template-columns: repeat(2, 1fr) !important;
     .team-member{

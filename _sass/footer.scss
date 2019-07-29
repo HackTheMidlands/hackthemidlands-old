@@ -12,16 +12,18 @@ footer{
   }
   h3{
     text-align: center;
+    align-content: center;
     color: white;
     font-weight: 300;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     text-transform: capitalize;
-    padding-top: 5px;
+    padding: 5px;
     opacity: 0.8;
-    font-size: 15px;
+    font-size: 20px;
     a{
       text-decoration: none;
       color: white;
+      padding-right: 20px;
     }
     img{
       width: 12px;
@@ -29,19 +31,21 @@ footer{
     }
   }
   .social-links {
-    padding: 15px 0px 30px 0px;
     img {
       height: 20px;
       float: right;
-      padding: 0px 30px 0px 0px;
+      padding: 5px 15px 15px 5px;
     }
   }
-  #footer-logo{
+  footer-credit{
+    text-align: center;
   }
-  #footer-social{
-    //flex-grow: 1;
-  }
-  #footer-credit{
-    //flex-grow: 2;
+}
+
+@media screen and (max-width: 600px) {
+  footer {
+    h3{
+      font-size: 8px;
+    }
   }
 }

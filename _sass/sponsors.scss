@@ -4,28 +4,23 @@
   background-repeat: repeat;
   h2{
     font-weight: 500;
-    font-size: 60px;
-    letter-spacing:4px;
+    font-size: xx-large !important;
     color: black;
     text-transform: uppercase;
     padding-top: 80px;
   }
   h3{
     font-weight: 400;
+    font-size: large;
     padding-top: 10px;
     padding-bottom: 100px;
-    letter-spacing: 2px;
     color: black;
-    text-align: justify;
   }
   hr{
     border: none;
     height: 2px;
     background-color: black;
     margin: 15px 0px 25px 0px;
-  }
-  img{
-    //margin: 50px;
   }
   .sponsors-list {
     text-align: center;
@@ -37,7 +32,7 @@
       width: 50%;
     }
     h2 {
-      font-size: 30px;
+      font-size: xx-large;
       display: block;
       padding-top: 20px;
     }
