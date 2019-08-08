@@ -15,6 +15,9 @@ silver:
   - name: BCS
     link: https://www.bcs.org/
     logo: ./images/sponsors/bcs.png
+  - name: Arm
+    link: https://www.arm.com/
+    logo: ./images/sponsors/arm.png
 
 bronze:
   - name: Kainos
