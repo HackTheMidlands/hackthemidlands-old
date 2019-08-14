@@ -10,7 +10,7 @@ HackTheMidlands is hosted in Millennium Point, Curzon Street, Birmingham, B4 7XG
 Millennium Point is within a ten minute wal from the Birmingham town centre and there are cycle parking faciities nearby, though be aware that HackTheMidlands is an overnight event.
 
 ## Train
-The nearest train stations are Birmingham New Street (BHM) and Birmingham Moor Street (BMO) which are a 15 minute walk from the venue. Snow Hill Station (BSW) is also within walking distance. The train stations have frequent connections around the West Midlands as well as many cities in England and Birmingham International Airport
+The nearest train stations are Birmingham New Street (BHM) and Birmingham Moor Street (BMO) which are a 15 minute walk from the venue. Snow Hill Station (BSW) is also within walking distance. The train stations have frequent connections around the West Midlands as well as many cities in England and Birmingham International Airport.
 
 ## Bus
 From the city centre to the Millennium Point entrance on Jennings Road, you can take the busses 14 (Stop BS7), 55/55A, 90 or 94 (Stop BS9).
@@ -54,7 +54,7 @@ Please let us know when reserving your ticket if you have any allergies or dieta
 That is not a problem! A great way to learn how to code is by attending a hackathon. It's an event for like-minded people to share what they are interested in and teach each-other what they are passionate about, whether its coding, electronics or anything else you want to know about. You never know what new skill you might pick up! You can also ask specific questions to our mentors and in the Discord server, where people are there to help.
 
 # I don't have a team
-Don't worry! Many people don't have a team when they turn up to a hackathon. You wull be able to meet people and network before the hacking begins, and we also have our Discord server where people are looking for teams and teams are looking for members.
+Don't worry! Many people don't have a team when they turn up to a hackathon. You will be able to meet people and network before the hacking begins, and we also have our Discord server where people are looking for teams and teams are looking for members.
 
 # Code of Conduct
 We will be following the Hack Code of Conduct, which can be found [here](http://hackcodeofconduct.org/).
