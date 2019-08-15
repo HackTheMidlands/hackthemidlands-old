@@ -7,7 +7,7 @@ Over the 24 hours, people aged 14+ of all skill levels **(you don't have to be a
 HackTheMidlands is hosted in Millennium Point, Curzon Street, Birmingham, B4 7XG. It is really easy to reach by public transport.
 
 ## Walking and Cycling
-Millennium Point is within a ten minute wal from the Birmingham town centre and there are cycle parking faciities nearby, though be aware that HackTheMidlands is an overnight event.
+Millennium Point is within a ten minute walk from the Birmingham town centre and there are cycle parking faciities nearby, though be aware that HackTheMidlands is an overnight event.
 
 ## Train
 The nearest train stations are Birmingham New Street (BHM) and Birmingham Moor Street (BMO) which are a 15 minute walk from the venue. Snow Hill Station (BSW) is also within walking distance. The train stations have frequent connections around the West Midlands as well as many cities in England and Birmingham International Airport.
