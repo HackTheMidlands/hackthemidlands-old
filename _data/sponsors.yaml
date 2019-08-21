@@ -18,6 +18,12 @@ silver:
   - name: Arm
     link: https://www.arm.com/
     logo: ./images/sponsors/arm.png
+  - name: Twilio
+    link: https://www.twilio.com/
+    logo: ./images/sponsors/twilio.svg
+  - name: Bentley
+    link: https://bentleymotors.com/
+    logo: ./images/sponsors/bentley.png
 
 bronze:
   - name: Kainos
@@ -34,6 +40,9 @@ partners:
   - name: University of Birmingham Computer Science
     link: https://www.cs.bham.ac.uk/
     logo: ./images/sponsors/socs.png
+  - name: Balsamiq
+    link: https://balsamiq.com/
+    logo: ./images/sponsors/balsamiq.svg
   - name: Levitation Events
     link: https://levitationevents.co.uk/
     logo: ./images/sponsors/levitation-events.png
