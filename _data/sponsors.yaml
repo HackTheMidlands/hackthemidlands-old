@@ -24,6 +24,9 @@ silver:
   - name: Bentley
     link: https://bentleymotors.com/
     logo: ./images/sponsors/bentley.png
+  - name: BJSS
+    link: https://www.bjss.com/
+    logo: ./images/sponsors/BJSS.png
 
 bronze:
   - name: Kainos
