@@ -27,6 +27,9 @@ silver:
   - name: BJSS
     link: https://www.bjss.com/
     logo: ./images/sponsors/BJSS.png
+  - name: Bought By Many
+    link: https://boughtbymany.com/
+    logo: ./images/sponsors/BBM.png
 
 bronze:
   - name: Kainos
