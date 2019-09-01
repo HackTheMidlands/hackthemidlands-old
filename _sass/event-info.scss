@@ -272,19 +272,9 @@ body{
     text-align: center;
   }
   .timetable{
-    color: white;
-    font-family: 'ingra', Arial;
-    .row-heading{
-      color: black;
-    }
-    .time-entry{
-      background-color: #288aff;
-      border: 1px solid #288aff;
-      cursor: pointer;
-    }
-    .time-entry:hover{
-      background-color: #346dff;
-      border: 1px solid #346dff;
+    border: 2px white solid;
+    td, th {
+      text-align: center;
     }
   }
 }

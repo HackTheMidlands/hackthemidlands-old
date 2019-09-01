@@ -148,55 +148,120 @@
     <section id="schedule">
         <div class="container">
             <h2>Schedule</h2>
-            <hr/>
-            <h3>Saturday</h3>
-            <div class="timetable" id="timetable"></div>
-            <table>
-                <col width="300">
+            <hr>
+            <br>
+            <table class="timetable">
+                <colgroup>
+                    <col width="20%">
+                    <col width="30%">
+                    <col width="30%">
+                </colgroup>
                 <tr>
                     <th>Time</th>
-                    <th></th>
+                    <th colspan="2">Saturday</th>
                 </tr>
                 <tr>
-                    <td>10:00</td>
-                    <td>Doors Open</td>
+                    <td>09:00</td>
+                    <td colspan="2">Doors Open</td>
                 </tr>
                 <tr>
                     <td>11:00</td>
-                    <td>Opening Presentation</td>
+                    <td colspan="2">Opening Presentation</td>
                 </tr>
                 <tr>
                     <td>12:00</td>
-                    <td>Hacking Starts</td>
-                </tr>
-            </table>
-            <h3>Sunday</h3>
-            <div class="timetable" id="timetable2"></div>
-            <table>
-                <col width="300">
-                <tr>
-                    <th>Time</th>
-                    <th></th>
-                </tr>
-                <tr>
-                    <td>00:00</td>
-                    <td>Midnight Snack</td>
-                </tr>
-                <tr>
-                    <td>12:00</td>
-                    <td>Hacking Ends</td>
+                    <td colspan="1">Hacking Starts</td>
+                    <td colspan="1">Team Building</td>
                 </tr>
                 <tr>
                     <td>13:00</td>
-                    <td>Lunch</td>
+                    <td colspan="2">Lunch</td>
                 </tr>
                 <tr>
                     <td>14:00</td>
-                    <td>Final Presentations</td>
+                    <td colspan="1">[A] Workshop 1</td>
+                    <td colspan="1"></td>
+                </tr>
+                <tr>
+                    <td>15:00</td>
+                    <td colspan="1">[A] Workshop 2</td>
+                    <td colspan="1"></td>
                 </tr>
                 <tr>
                     <td>16:00</td>
-                    <td>Closing Ceremony</td>
+                    <td colspan="1">[A] Workshop 3</td>
+                    <td colspan="1">[B] Workshop 1</td>
+                </tr>
+                <tr>
+                    <td>17:00</td>
+                    <td colspan="1">[A] Workshop 4</td>
+                    <td colspan="1">[B] Workshop 2</td>
+                </tr>
+                <tr>
+                    <td>18:00</td>
+                    <td colspan="1"></td>
+                    <td colspan="1">[B] Workshop 3</td>
+                </tr>
+                <tr>
+                    <td>19:00</td>
+                    <td colspan="2">Dinner</td>
+                </tr>
+                <tr>
+                    <td>20:00</td>
+                    <td colspan="2">Code in the Dark</td>
+                </tr>
+                <tr>
+                    <td>21:00</td>
+                    <td colspan="2">Quiplash</td>
+                </tr>
+                <tr>
+                    <td>22:00</td>
+                    <td colspan="2">Werewolf</td>
+                </tr>
+            </table>
+            <br>
+            <br>
+            <table class="timetable">
+                <colgroup>
+                    <col width="20%">
+                    <col width="30%">
+                    <col width="30%">
+                </colgroup>
+                <tr>
+                    <th>Time</th>
+                    <th colspan="2">Sunday</th>
+                </tr>
+                <tr>
+                    <td>00:00</td>
+                    <td colspan="2">Midnight Snack</td>
+                </tr>
+                <tr>
+                    <td>08:00</td>
+                    <td colspan="2">Breakfast</td>
+                </tr>
+                <tr>
+                    <td>12:00</td>
+                    <td colspan="2">Hacking Ends</td>
+                </tr>
+                <tr>
+                    <td>12:30</td>
+                    <td colspan="2">Presentations</td>
+                </tr>
+                <tr>
+                    <td>14:00</td>
+                    <td colspan="2">Lunch</td>
+                </tr>
+                <tr>
+                    <td>14:30</td>
+                    <td colspan="2">Presentations</td>
+                </tr>
+                <tr>
+                    <td>16:00</td>
+                    <td colspan="2">Closing Ceremony</td>
+                </tr>
+                <tr>
+                    <td>17:00</td>
+                    <td colspan="2">Event End</td>
                 </tr>
             </table>
         </div>
@@ -230,48 +295,6 @@
             });
         });
     </script>
-
-<!--     <script>
-        $(document).ready(function(){
-            // Timetable
-            var timetable = new Timetable();
-            timetable.setScope(10, 23);
-            timetable.addLocations(['Main Hall', 'Food Table', 'Entertainment']);
-            //Main Hall
-            timetable.addEvent('Doors Open', 'Main Hall', new Date(2018,11,3,10,00), new Date(2018,11,3,11,00));
-            timetable.addEvent('Welcome Presentation', 'Main Hall', new Date(2018,11,3,11,00), new Date(2018,11,3,12,00));
-            timetable.addEvent('Hacking!', 'Main Hall', new Date(2018,11,3,12,00), new Date(2018,11,3,12,01));
-            timetable.addEvent('Presentations', 'Main Hall', new Date(2018,11,4,14,00), new Date(2018,11,4,16,00));
-            timetable.addEvent('Closing ceremony', 'Main Hall', new Date(2018,11,4,16,00), new Date(2018,11,4,16,30));
-            //Food Table
-            timetable.addEvent('Lunch', 'Food Table', new Date(2018,11,3,13,00), new Date(2018,11,3,14,00));
-            timetable.addEvent('Dinner', 'Food Table', new Date(2018,11,3,19,00), new Date(2018,11,3,20,00));
-            timetable.addEvent('Breakfast', 'Food Table', new Date(2018,11,4,08,00), new Date(2018,11,4,09,00));
-            timetable.addEvent('Lunch', 'Food Table', new Date(2018,11,4,13,00), new Date(2018,11,4,14,00));
-            //Entertainment
-            timetable.addEvent('Code In The Dark', 'Entertainment', new Date(2018,11,3,20,00), new Date(2018,11,3,21,00));
-            timetable.addEvent('Werewolf', 'Entertainment', new Date(2018,11,3,22,00), new Date(2018,11,3,23,00));
-
-
-            //Render Timetable
-            var renderer = new Timetable.Renderer(timetable);
-            renderer.draw('#timetable'); // any css selector
-
-            // Timetable 2
-            var timetable2 = new Timetable();
-            timetable2.setScope(8, 17);
-            timetable2.addLocations(['Main Hall', 'Food Table', 'Entertainment']);
-            //Main Hall
-            timetable2.addEvent('Presentations', 'Main Hall', new Date(2018,11,4,14,00), new Date(2018,11,4,16,00));
-            timetable2.addEvent('Closing ceremony', 'Main Hall', new Date(2018,11,4,16,00), new Date(2018,11,4,16,30));
-            //Food Table
-            timetable2.addEvent('Breakfast', 'Food Table', new Date(2018,11,4,08,00), new Date(2018,11,4,09,00));
-            timetable2.addEvent('Lunch', 'Food Table', new Date(2018,11,4,13,00), new Date(2018,11,4,14,00));
-
-            var renderer2 = new Timetable.Renderer(timetable2);
-            renderer2.draw('#timetable2'); // any css selector
-        });
-    </script> -->
 
     <script>
         $('.nav-mobile').on('click', function(){
