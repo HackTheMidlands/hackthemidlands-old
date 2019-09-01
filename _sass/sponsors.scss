@@ -52,8 +52,10 @@
         display: inline-block;
         width: 28%;
         margin: 20px;
-        img{
+        img {
           width: 100%;
+          max-height: 200px;
+          object-fit: contain;
         }
       }
     }
