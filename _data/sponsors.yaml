@@ -40,6 +40,9 @@ bronze:
     logo: ./images/sponsors/css.png
 
 partners:
+  - name: Discord
+    link: https://discord.com
+    logo: ./images/sponsors/discord.png
   - name: MLH
     link: https://mlh.io
     logo: ./images/sponsors/mlh.png
@@ -55,3 +58,6 @@ partners:
   - name: Arkwright Engineering Scholarships
     link: http://www.arkwright.org.uk/
     logo: ./images/sponsors/arkwright.png
+  - name: HS2
+    link: https://www.gov.uk/government/organisations/high-speed-two-limited
+    logo: ./images/sponsors/HS2.png
