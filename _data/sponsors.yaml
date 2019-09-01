@@ -58,6 +58,9 @@ partners:
   - name: Arkwright Engineering Scholarships
     link: http://www.arkwright.org.uk/
     logo: ./images/sponsors/arkwright.png
+  - name: JetBrains
+    link: https://www.jetbrains.com/
+    logo: ./images/sponsors/jetbrains.png
   - name: HS2
     link: https://www.gov.uk/government/organisations/high-speed-two-limited
     logo: ./images/sponsors/HS2.png
