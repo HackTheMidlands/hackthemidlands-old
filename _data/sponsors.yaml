@@ -64,3 +64,6 @@ partners:
   - name: HS2
     link: https://www.gov.uk/government/organisations/high-speed-two-limited
     logo: ./images/sponsors/HS2.png
+  - name: Fusion
+    link: https://www.meetup.com/Fusion-Technology-Meetup-Birmingham/
+    logo: ./images/sponsors/fusion.png
