@@ -180,74 +180,135 @@ body{
 }
 
 #team{
-  height: auto;
-  padding: 40px 0px;
-  h2{
-    font-size: 35px;
-    font-weight: 500;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: white;
-  }
-  .team-item{
-    margin: 20px 0px;
-  }
-  .team-item-left, .team-item-right{
-    display: inline-block;
-    vertical-align: top;
-    min-height: 200px;
-  }
-  .team-item-left{
-    width: 10%;
-    background-color: #ffffff;
-    border-radius: 5px 0px 0px  5px ;
-    position: relative;
-    img{
-      width: 80%;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
+  text-align: left;
+  .team-container{
+    padding: 5% 5%;
+    &__header{
+      h2{
+        font-weight: 500;
+        font-size: xx-large;
+        letter-spacing:2px;
+        color: white;
+        text-transform: uppercase;
+      }
+      h3{
+        font-weight: 300;
+        font-size: large;
+        padding-bottom: 50px;
+        color: white;
+      }
+      hr{
+        border: none;
+        height: 2px;
+        background-color: white;
+        margin: 15px 0px 25px 0px;
+
+      }
     }
   }
-  .team-item-right{
-    width: 70%;
-    margin-left: -6px;
-    background-color: #e9e9e9;
-    background-image: url('../../images/cubes.png');
-    background-repeat: repeat;
-    background-size: 50px 80px;
-    position: relative;
-    border-radius: 0px 5px 5px 0px;
-    .team-item-right-content{
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      margin: 0px 8%;
+  .team-grid-container{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    .team-member{
+      text-align: center;
+      background-color: white;
+      margin: 10px;
+      display: flex;
+      flex-direction: column;
+      height: 400px;
+      &__picture_container {
+        width: 100%;
+        height: 75%;
+      }
+      &__picture{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      &__text{
+        min-height: 100px;
+        line-height: inherit;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h3{
+          padding-bottom: 5px;
+          padding-left: 5px;
+          padding-right: 5px;
+          color: black;
+          text-align: center;
+          font-weight: 500;
+          font-size: medium;
+        }
+        h4 {
+            font-weight: 400;
+            font-size: medium;
+        }
+        h5{
+          margin: 0px;
+          font-weight: 300;
+          font-size: medium;
+          width: 90%;
+          margin: auto;
+        }
+      }
+    }
+  }
+  #team-slit-bottom{
+    width: 100%;
+    height: 103px;
+    background-color: #1f1f1f;
+    -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 66%);
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 66%);
+  }
+}
+
+@media screen and (max-width: 1700px){
+  .team-grid-container {
+    grid-template-columns: repeat(4, 1fr) !important;
+  }
+}
+
+@media screen and (max-width: 1500px){
+  .team-grid-container{
+      grid-template-columns: repeat(3, 1fr) !important;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .team-container{
+    &__header{
+      h2{
+        font-size: x-large !important;
+      }
       h3{
-        font-size: 26px;
-        font-weight: 500;
-        letter-spacing: 2px;
+        font-size: medium !important;
+        letter-spacing: 0px !important;
+        padding-bottom: 15px !important;
       }
-      p{
-        font-weight: 300;
-        margin: 0px 0px 10px 0px;
-      }
-      a{
-        text-decoration: none;
-        color: orange;
-        font-weight: 300;
-      }
-      button{
-        margin: 10px 0px;
-      }
-      a:visited{
-        color: dodgerblue;
-        font-weight: 300;
+    }
+  }
+  .team-grid-container{
+    grid-template-columns: repeat(2, 1fr) !important;
+    .team-member{
+      height: 200px !important;
+      &__text{
+        min-height: 50px !important;
+        h3{
+          font-size: x-small !important;
+        }
+        h4 {
+          font-size: x-small !important;
+        }
+        h5{
+          font-size: xx-small !important;
+        }
       }
     }
   }
 }
+
 
 #submission{
   padding: 40px 0px;
@@ -267,7 +328,7 @@ body{
   }
   h3{
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 200;
     letter-spacing: 1px;
     color: white;
     margin: 20px 0px 0px 0px;

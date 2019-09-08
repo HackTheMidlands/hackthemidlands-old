@@ -1,0 +1,30 @@
+- name: Will Russell
+  role: Lead
+  uni: University of Birmingham
+  picture: /images/team/WillRussell.jpg
+  description: Lead of the HackTheMidlands School Outreach Scheme.
+- name: Justin Chadwell
+  role: Technical Lead
+  uni: University of Birmingham
+  picture: /images/team/JustinChadwell.jpg
+  description: Ensuring the technology behind the workshops runs smoothly.
+- name: Lauren Alie
+  role: Inclusion Lead
+  uni: University of Birmingham
+  picture: /images/team/school/LaurenAlie.jpg
+  description: Helping us get as many students involved, regardless of their background. Hackathons are for everyone.
+- name: Daniel Spencer
+  role: Workshop Mentor
+  uni: University of Warwick
+  picture: /images/team/school/DanielSpencer.jpg
+  description: With a strong background in Python, JavaScript, and Java, he's helping students get the most out of the workshops.#
+- name: Jen Ollett
+  role: Workshop Mentor
+  uni: University of Sheffield
+  picture: /images/team/school/JenOllett.jpg
+  description: todo
+- name: Melissa Quail
+  role: Workshop Mentor
+  uni: University of Cambridge
+  picture: /images/team/school/MelissaQuail.jpg
+  description: todo

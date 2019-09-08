@@ -1,4 +1,6 @@
-partners: 
-  - name: STEM Ambassadors
-    link: https://www.stem.org.uk/
-    logo: ./images/sponsors/stem.svg
+- name: STEM Ambassadors
+  link: https://www.stem.org.uk/
+  logo: ./images/sponsors/stem.svg
+- name: Arwright Scholarships Trust
+  link: http://www.arkwright.org.uk/
+  logo: ./images/sponsors/arkwright.png

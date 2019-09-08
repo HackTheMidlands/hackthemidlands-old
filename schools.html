@@ -1,3 +1,6 @@
+---
+---
+
 <html>
 
 <head>
@@ -62,110 +65,52 @@
         <h2>What is the HackTheMidlands School Outreach Scheme?</h2>
         <hr/>
         <h3>We want to get more students into hackathons!</h3>
+        <h3>As some of us have recently finished school, we know the tech opportunities aren't brilliant. We want to make more students aware of these opportunities, helping them get into programming and making cool projects!</h3>
+        <h3>These opportunities either exist, aren't known about, or are intimidating to those just getting into programming. We want to fix that by giving students the support and guidance they need to learn!</h3>
+      </div>
+    </section>
+    <section id="submission">
+      <div class="container">
+        <h2>What can we do?</h2>
+        <hr/>
+        <h3>We can offer a variety of sessions.</h3>
       </div>
     </section>
     <section id="submission">
       <div class="container">
         <h2>Partners</h2>
         <hr/>
-        <h3>We work closely with out partners to help give these opportunities to as many students as possible!</h3>
+        <h3>We work closely with our partners to help make students aware of these opportunities!</h3>
       </div>
     </section>
     <section id="team">
       <div class="container">
-        <h2>Team</h2>
-        <hr/>
-        <div class="teams-challenges">
-          <div class="team-item">
-            <div class="team-item-left">
-              <img src="images/team/WillRussell.jpg" alt="Will Russell" />
-            </div>
-            <div class="team-item-right">
-              <div class="team-item-right-content">
-                <h3>Will Russell</h3>
-                <h4>Lead</h4>
-                <p>Leading the School Outreach Scheme</p>
-                <br>
+      </div>
+    </section>
+    <section id="team">
+      <div class="container team-container">
+        <div class="team-container__header">
+          <h2>Team</h2>
+          <hr/>
+        </div>
+        <div class="team-grid-container">
+          {% for person in site.data.school_team %}
+          <div class="team-grid team-member">
+            <a class="team-member__picture_container">
+              <img class="team-member__picture" src="{{ person.picture }}">
+            </a>
+            <div class="team-member__text">
+              <div class="team-member__text__content">
+                <h3>{{ person.name }}</h3>
+                <h4>{{ person.role }}</h4>
+                <h5>{{ person.uni }}</h5>
               </div>
             </div>
-        <div class="team-item">
-          <div class="team-item-left">
-            <img src="images/team/JustinChadwell.jpg" alt="Justin Chadwell" />
           </div>
-          <div class="team-item-right">
-            <div class="team-item-right-content">
-              <h3>Justin Chadwell</h3>
-              <h4>Technical Lead</h4>
-              <p>Ensuring the technology behind the workshops runs smoothly</p>
-              <br>
-            </div>
-          </div>
-        </div>
-        <div class="team-item">
-          <div class="team-item-left">
-            <img src="images/team/school/DanielSpencer.jpg" alt="Daniel Spencer" />
-          </div>
-          <div class="team-item-right">
-            <div class="team-item-right-content">
-              <h3>Daniel Spencer</h3>
-              <h4>Workshop Mentor</h4>
-              <p>Helping students make the most out of the workshops</p>
-              <br>
-            </div>
-          </div>
+          {% endfor %}
         </div>
       </div>
     </section>
-    <!--
-    <section id="navigation">
-        <div class="container">
-            <div class="nav-text">
-                <h1>You have:</h1>
-                <div id="countdown">
-                    <div id="days">
-                        <span class="days"></span>
-                        <h3>Days</h3>
-                    </div>
-                    <div id="hours">
-                        <span class="hours"></span>
-                        <h3>Hours</h3>
-                    </div>
-                    <div id="minutes">
-                        <span class="minutes"></span>
-                        <h3>Minutes</h3>
-                    </div>
-                    <div id="seconds">
-                        <span class="seconds"></span>
-                        <h3>Seconds</h3>
-                    </div>
-                    <h1>left</h1>
-                </div>
-                <ul>
-                    <a href="#team-challenges">
-                        <li>
-                            <div class="nav-icon"><img src="images/icons/teams.svg" /></div>
-                            <h4>teams</h4>
-                        </li>
-                    </a>
-                    <a href="#schedule">
-                        <li>
-                            <div class="nav-icon"><img src="images/icons/calendar.svg" /></div>
-                            <h4>Schedule</h4>
-                        </li>
-                    </a>
-                    <a href="#submission">
-                        <li>
-                            <div class="nav-icon"><img src="images/icons/upload.svg" /></div>
-                            <h4>Submissions</h4>
-                        </li>
-                    </a>
-                </ul>
-            </div>
-    </section>
-
-
-  -->
-
     <script>
         $(function () {
             $('a[href*="#"]:not([href="#"])').click(function () {
