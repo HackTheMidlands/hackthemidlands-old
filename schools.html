@@ -1,0 +1,214 @@
+<html>
+
+<head>
+    <!--Stylesheets-->
+
+    <title>School Outreach Scheme</title>
+    <link type="text/css" rel="stylesheet" href="./css/schools.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:image" content="http://hackthemidlands.com/images/hackthemidlands-facebook.jpg" />
+    <meta property="og:url" content="http://www.hackthemidlands.com" />
+    <script src="https://use.typekit.net/dme1ptj.js"></script>
+    <script>try { Typekit.load({ async: true }); } catch (e) { }</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="js/featherlight.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/featherlight/1.5.0/featherlight.min.css" type="text/css"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <div class="nav-mobile-content-container">
+        <div id="mobile-close">
+            <h1 id="mobile-close">X</h1>
+        </div>
+        <div class="nav-mobile-content">
+            <a href="/#event-info">About Us</a>
+            <a href="/#teams">teams</a>
+            <a href="/#team">Team</a>
+            <a href="/tickets">Tickets</a>
+            <a href="event-info.html">Event Information</a>
+        </div>
+    </div>
+
+    <section id="header">
+        <div class="overlay"></div>
+        <div class="navigation">
+            <div class="nav-left">
+                <a href='.'>
+                    <img src="./images/htmlogo.png" />
+                </a>
+                <!-- <h1>HTM</h1> -->
+            </div>
+            <div class="nav-right">
+                <div class="nav-right-content">
+                    <a href="/#event-info">About Us</a>
+                    <a href="/#teams">teams</a>
+                    <a href="/#team">Team</a>
+                    <a href="/tickets">Tickets</a>
+                    <a href="event-info.html">Event Information</a>
+                    <a href="schools.html">Schools</a>
+                    <div class="nav-mobile"></div>
+                </div>
+            </div>
+        </div>
+        <div class="header-title">
+            <h1>HackTheMidlands</h1>
+            <h4>School Outreach Scheme</h4>
+        </div>
+    </section>
+
+    <section id="submission">
+      <div class="container">
+        <h2>What is the HackTheMidlands School Outreach Scheme?</h2>
+        <hr/>
+        <h3>We want to get more students into hackathons!</h3>
+      </div>
+    </section>
+    <section id="submission">
+      <div class="container">
+        <h2>Partners</h2>
+        <hr/>
+        <h3>We work closely with out partners to help give these opportunities to as many students as possible!</h3>
+      </div>
+    </section>
+    <section id="team">
+      <div class="container">
+        <h2>Team</h2>
+        <hr/>
+        <div class="teams-challenges">
+          <div class="team-item">
+            <div class="team-item-left">
+              <img src="images/team/WillRussell.jpg" alt="Will Russell" />
+            </div>
+            <div class="team-item-right">
+              <div class="team-item-right-content">
+                <h3>Will Russell</h3>
+                <h4>Lead</h4>
+                <p>Leading the School Outreach Scheme</p>
+                <br>
+              </div>
+            </div>
+        <div class="team-item">
+          <div class="team-item-left">
+            <img src="images/team/JustinChadwell.jpg" alt="Justin Chadwell" />
+          </div>
+          <div class="team-item-right">
+            <div class="team-item-right-content">
+              <h3>Justin Chadwell</h3>
+              <h4>Technical Lead</h4>
+              <p>Ensuring the technology behind the workshops runs smoothly</p>
+              <br>
+            </div>
+          </div>
+        </div>
+        <div class="team-item">
+          <div class="team-item-left">
+            <img src="images/team/school/DanielSpencer.jpg" alt="Daniel Spencer" />
+          </div>
+          <div class="team-item-right">
+            <div class="team-item-right-content">
+              <h3>Daniel Spencer</h3>
+              <h4>Workshop Mentor</h4>
+              <p>Helping students make the most out of the workshops</p>
+              <br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--
+    <section id="navigation">
+        <div class="container">
+            <div class="nav-text">
+                <h1>You have:</h1>
+                <div id="countdown">
+                    <div id="days">
+                        <span class="days"></span>
+                        <h3>Days</h3>
+                    </div>
+                    <div id="hours">
+                        <span class="hours"></span>
+                        <h3>Hours</h3>
+                    </div>
+                    <div id="minutes">
+                        <span class="minutes"></span>
+                        <h3>Minutes</h3>
+                    </div>
+                    <div id="seconds">
+                        <span class="seconds"></span>
+                        <h3>Seconds</h3>
+                    </div>
+                    <h1>left</h1>
+                </div>
+                <ul>
+                    <a href="#team-challenges">
+                        <li>
+                            <div class="nav-icon"><img src="images/icons/teams.svg" /></div>
+                            <h4>teams</h4>
+                        </li>
+                    </a>
+                    <a href="#schedule">
+                        <li>
+                            <div class="nav-icon"><img src="images/icons/calendar.svg" /></div>
+                            <h4>Schedule</h4>
+                        </li>
+                    </a>
+                    <a href="#submission">
+                        <li>
+                            <div class="nav-icon"><img src="images/icons/upload.svg" /></div>
+                            <h4>Submissions</h4>
+                        </li>
+                    </a>
+                </ul>
+            </div>
+    </section>
+
+
+  -->
+
+    <script>
+        $(function () {
+            $('a[href*="#"]:not([href="#"])').click(function () {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html, body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000);
+                        return false;
+                    }
+                }
+            });
+        });
+    </script>
+
+    <script>
+        $('.nav-mobile').on('click', function () {
+            $('.nav-mobile-content-container').css({
+                maxHeight: '100%',
+                height: '100%',
+                opacity: 1
+            })
+        });
+        $('#mobile-close').on('click', function () {
+            $('.nav-mobile-content-container').css({
+                opacity: 0,
+                maxHeight: '0px'
+            });
+        });
+    </script>
+
+    <script>
+        $('#mp-lightbox').featherlight();
+    </script>
+
+    </a>
+    <script type="text/javascript">
+        $("#discord_thing").click(function () {
+            alert($("#discord_thing").css("transform"));
+        });
+    </script>
+</body>
+
+</html>
