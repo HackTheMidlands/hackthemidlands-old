@@ -38,6 +38,9 @@ bronze:
   - name: CSS
     link: https://cssbham.com/
     logo: ./images/sponsors/css.png
+  - name: Fusion
+    link: https://www.meetup.com/Fusion-Technology-Meetup-Birmingham/
+    logo: ./images/sponsors/fusion.png
 
 partners:
   - name: Discord
@@ -49,6 +52,9 @@ partners:
   - name: University of Birmingham Computer Science
     link: https://www.cs.bham.ac.uk/
     logo: ./images/sponsors/socs.png
+  - name: Sticker Mule
+    link: https://www.stickermule.com/
+    logo: ./images/sponsors/stickermule.svg
   - name: Balsamiq
     link: https://balsamiq.com/
     logo: ./images/sponsors/balsamiq.svg
@@ -64,9 +70,6 @@ partners:
   - name: HS2
     link: https://www.gov.uk/government/organisations/high-speed-two-limited
     logo: ./images/sponsors/HS2.png
-  - name: Fusion
-    link: https://www.meetup.com/Fusion-Technology-Meetup-Birmingham/
-    logo: ./images/sponsors/fusion.png
   - name: Social Mobility Foundation
     link: https://www.socialmobility.org.uk/
     logo: ./images/sponsors/smf.png
