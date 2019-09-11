@@ -30,6 +30,9 @@ silver:
   - name: Bought By Many
     link: https://boughtbymany.com/
     logo: ./images/sponsors/BBM.png
+  - name: Webroot
+    link: https://www.webroot.com/gb/en
+    logo: ./images/sponsors/webroot.png
 
 bronze:
   - name: Kainos
