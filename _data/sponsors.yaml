@@ -33,6 +33,9 @@ silver:
   - name: Webroot
     link: https://www.webroot.com/gb/en
     logo: ./images/sponsors/webroot.png
+  - name: Capital One
+    link: https://www.capitalone.com/
+    logo: ./images/sponsors/CapitalOne.svg
 
 bronze:
   - name: Kainos
