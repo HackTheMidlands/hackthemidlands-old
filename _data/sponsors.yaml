@@ -4,11 +4,11 @@ building:
     logo: ./images/sponsors/mp.png
 
 gold:
-
-silver:
   - name: Majestic
     link: https://majestic.com/
     logo: ./images/sponsors/majestic.png
+
+silver:
   - name: Capgemini
     link: https://www.capgemini.com/
     logo: ./images/sponsors/capgemini.png
