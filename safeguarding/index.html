@@ -1,3 +1,6 @@
+---
+---
+
 <html>
 <head>
     <!--Stylesheets-->
@@ -164,7 +167,29 @@
                 <p>Our Child Protection Policy can be found <a href=/docs/safeguarding/ChildProtectionPolicy.pdf>here</a></p>
         </div>
     </section>
-
+    <section id="team">
+        <div class="container team-container">
+            <div class="team-container__header">
+                <h2>Meet The Team</h2>
+                <hr/>
+            </div>
+            <div class="team-grid-container">
+                {% for person in site.data.safeguarding %}
+                <div class="team-grid team-member">
+                    <a class="team-member__picture_container">
+                        <img class="team-member__picture" src="{{ person.picture }}">
+                    </a>
+                    <div class="team-member__text">
+                        <div class="team-member__text__content">
+                            <h3>{{ person.name }}</h3>
+                            <h4>{{ person.role }}</h4>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
     <section id="contact">
         <div class="container">
             <br><br><br>
@@ -179,6 +204,7 @@
             <br><br><br><br><br>
         </div>
     </section>
+
 
     <script>
         $(function() {
