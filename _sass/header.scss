@@ -129,7 +129,7 @@
     button{
       -webkit-appearance: none;
       padding: 10px 30px;
-      background-color: transparent;
+      background-color: #000000a1;
       border: 2px solid white;
       border-radius: 3px;
       color: white;
@@ -148,6 +148,7 @@
     }
     #apply-button{
       margin-right: 20px;
+      margin-top: 20px;
     }
   }
   .social-links-header{
@@ -188,9 +189,6 @@
       }
       button{
         display: block;
-      }
-      #sponsor-button{
-        margin-top: 15px;
       }
     }
   }
