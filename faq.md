@@ -58,7 +58,3 @@ Don't worry! Many people don't have a team when they turn up to a hackathon. You
 
 # Code of Conduct
 We will be following the Hack Code of Conduct, which can be found [here](http://hackcodeofconduct.org/).
-
-# Join Us!
-Get your tickets now for HackTheMidlands and be guaranteed a spot in this year's hackathon!
-<a href="/tickets"><button>Get Tickets</button></a>
