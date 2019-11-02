@@ -13,13 +13,17 @@ function getTimeRemaining(endtime) {
     };
 }
 
-function initializeClock(id, endtime) {
+function initializeClock(id, descriptionID, endtime, description) {
     var clock = document.getElementById(id);
+    var clockDescription = document.getElementById(descriptionID)
+    clockDescription.innerText = description;
+    if (endtime === null) {
+        clock.style.display = "none";
+    } else {
     var daysSpan = clock.querySelector('.days');
     var hoursSpan = clock.querySelector('.hours');
     var minutesSpan = clock.querySelector('.minutes');
     var secondsSpan = clock.querySelector('.seconds');
-
     function updateClock() {
         var t = getTimeRemaining(endtime);
 
@@ -36,11 +40,12 @@ function initializeClock(id, endtime) {
     updateClock();
     var timeinterval = setInterval(updateClock, 250);
 }
+}
 
 window.addEventListener('DOMContentLoaded', (event) => {
     // Javascript zero-indexes months, but not days.
     // Please don't ask why.
-    var deadline = new Date(Date.parse(new Date(2019, 9, 27, 12, 00, 00)));
-
-    initializeClock('countdown', deadline);
+    // var deadline = new Date(Date.parse(new Date(2019, 9, 27, 12, 00, 00)));
+    var deadline = null;
+    initializeClock('countdown', 'countdown-description', deadline,"Coming soon...");
 })
