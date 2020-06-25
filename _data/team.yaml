@@ -1,42 +1,61 @@
 - name: Tom Goodman
-  role: Founder / Lead Organiser
+  title: Boss Man
+  role: CEO / Lead Organiser
   picture: /images/team/TomGoodman.jpg
   twitter: TauOmicronMu
 - name: Liam Sorta
-  role: Founder / Delight Lead
+  title: Bigger Boss man
+  role: CMO / Delight Lead
   picture: /images/team/LiamSorta.jpg
   twitter: LiamSorta
 - name: Helena Bower
+  title: The True HTM Overlord
   role: Publicity Lead
   picture: /images/team/HelenaBower.jpg
   twitter: bowerhe
-- name: Hugh Wells
-  role: PCB Designer
-  picture: /images/team/HughWells.jpg
-  twitter: CrabLabuk
-- name: Jon Kingsley
-  role: Stage Manager / Infrastructure Lead
-  picture: /images/team/JonKingsley.jpg
-  twitter: JFKingsley
-- name: Will Russell
-  role: Outreach / AV Lead
-  picture: /images/team/WillRussell.jpg
-  twitter: wrussell1999
 - name: Charlie de Freitas
-  role: Web Lead
+  title: Scary Questions Boi
+  role: Logistics Lead
   picture: /images/team/CharliedeFreitas.jpg
   twitter: chasbob97
+- name: Will Russell
+  title: Dongle Boi
+  role: Outreach and Engagement Lead
+  picture: /images/team/WillRussell.jpg
+  twitter: wrussell1999
 - name: Justin Chadwell
-  role: CTF Lead / Webmaster
+  title: 1337 H4cKerM4N
+  role: Web and CTF Lead
   picture: /images/team/JustinChadwell.jpg
   twitter: jedevc
+- name: Alex Wiley
+  title: Website Genie
+  role: Creative Lead
+  picture: /images/team/alex.jpg
+- name: Fraser Wade
+  title: Mesh Router Fanatic
+  role: Networking Lead
+  picture: /images/team/FraserWade.jpg
+- name: Jon Kingsley
+  title: Theatre Kid
+  role: Stage Manager
+  picture: /images/team/JonKingsley.jpg
+  twitter: JFKingsley
+- name: Daniel Spencer
+  title: Lord of the Bots
+  role: Web and AV
+  picture: /images/team/DanielSpencer.jpg
 - name: Likkan Chung
+  title: Count Tweetula
   role: Publicity Officer
   picture: /images/team/LikkanChung.jpg
   twitter: LikkanChung
-- name: Fraser Wade
-  role: Networking Lead
-  picture: /images/team/FraserWade.jpg
-- name: Daniel Spencer
-  role: AV Technician
-  picture: /images/team/DanielSpencer.jpg
+- name: Jon Freer
+  title: Stream God
+  role: Steam Content / Production
+  picture: /images/team/jon.jpg
+- name: Hugh Wells
+  title: King Crab
+  role: Logistics
+  picture: /images/team/HughWells.jpg
+  twitter: CrabLabuk
